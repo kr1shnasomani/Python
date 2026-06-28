@@ -1,4 +1,4 @@
-https://www.naukri.com/code360/problems/print-n-to-1-without-loop_1089442
+https://www.naukri.com/code360/problems/print-1-to-n_628290
 
 You are given an integer `n`.
 
