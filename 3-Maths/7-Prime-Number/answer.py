@@ -1,9 +1,3 @@
-from os import *
-from sys import *
-from collections import *
-from math import *
-
-#Your code goes here
 n = int(input())
 
 result = []
