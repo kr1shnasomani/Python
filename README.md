@@ -9,6 +9,7 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 - [Section 5 - Hashing](#section-5---hashing)
 - [Section 6 - Sorting](#section-6---sorting)
 - [Section 7 - Arrays](#section-7---arrays)
+- [Section 8 - Binary Search](#section-8---binary-search)
 
 ---
 
@@ -69,7 +70,25 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 | 1 | [Largest Element in the Array](7-Arrays/1-Largest-Element-in-the-Array) |
 | 6 | [Rotate Array](7-Arrays/6-Rotate-Array) |
 | 7 | [Move Zeroes](7-Arrays/7-Move-Zeroes) |
-| 14 | [Longest Subarray With Sum K](7-Arrays/14-Longest%20Subarray%20With%20Sum%20K) |
+| 14 | [Longest Subarray With Sum K](7-Arrays/14-Longest-Subarray-With-Sum-K) |
 | 15 | [Two Sum](7-Arrays/15-Two-Sum) |
 | 16 | [Sort Colors](7-Arrays/16-Sort-Colors) |
 | 18 | [Maximum Subarray](7-Arrays/18-Maximum-Subarray) |
+| 25 | [Set Matrix Zeroes](7-Arrays/25-Set-Matrix-Zeroes) |
+| 26 | [Rotate Image](7-Arrays/26-Rotate-Image) |
+| 28 | [Subarray Sum Equals K](7-Arrays/28-Subarrat-Sum-Equals-k) |
+
+---
+
+## Section 8 - Binary Search
+
+| # | Problem |
+|---|---------|
+| 1 | [Binary Search](8-Binary-Search/1-Binary-Search) |
+| 2 | [Implement Lower Bound](8-Binary-Search/2-Implement-Lower-Bound) |
+| 3 | [Implement Upper Bound](8-Binary-Search/3-Implement-Upper-Bound) |
+| 4 | [Search Insert Position](8-Binary-Search/4-Search-Insert-Position) |
+| 6 | [Find First and Last Position of Element in Sorted Array](8-Binary-Search/6-Find-First-and-Last-Position-of-Element-in-Sorted-Array) |
+| 8 | [Search in Rotated Sorted Array](8-Binary-Search/8-Search-in-Rotated-Sorted-Array) |
+| 10 | [Find Minimum in Rotated Sorted Array](8-Binary-Search/10-Find-Minimum-in-Rotated-Sorted-Array) |
+| 13 | [Find Peak Element](8-Binary-Search/13-Find-Peak-Element) |
