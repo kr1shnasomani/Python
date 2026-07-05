@@ -1,6 +1,4 @@
-# Notes for Python
-
-Welcome to my Python Notes repository! This repository contains comprehensive notes covering various Python concepts, libraries, and coding practices. Whether you're a beginner or an experienced developer, these notes will help you deepen your understanding of Python and serve as a handy reference guide.
+# Basics of Python
 
 The contents present in the notebook:
   | S. No. | Topic | Description |
