@@ -16,94 +16,94 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 
 ## Section 3 - Maths
 
-| # | Problem |
-|---|---------|
-| 1 | [Number of Digits](3-Maths/1-Number-of-digits) |
-| 2 | [Reverse Integer](3-Maths/2-Reverse-Integer) |
-| 3 | [Palindrome Number](3-Maths/3-Palindrome-Number) |
-| 4 | [GCD / HCF](3-Maths/4-GCD) |
-| 5 | [Armstrong Number](3-Maths/5-Armstrong-Number) |
-| 6 | [Print All Divisors](3-Maths/6-Print-all-Divisors-of-a-number) |
-| 7 | [Prime Number](3-Maths/7-Prime-Number) |
+| # | Topic | Problem | Solution | Approach |
+|---|-------|---------|----------|----------|
+| 1 | [Number of Digits](03-Maths/01-Number-of-digits) | [Code360](https://www.naukri.com/code360/problems/number-of-digits_9173) | [answer.py](03-Maths/01-Number-of-digits/answer.py) | [approach.md](03-Maths/01-Number-of-digits/approach.md) |
+| 2 | [Reverse Integer](03-Maths/02-Reverse-Integer) | [LeetCode](https://leetcode.com/problems/reverse-integer/) | [answer.py](03-Maths/02-Reverse-Integer/answer.py) | [approach.md](03-Maths/02-Reverse-Integer/approach.md) |
+| 3 | [Palindrome Number](03-Maths/03-Palindrome-Number) | [LeetCode](https://leetcode.com/problems/palindrome-number/) | [answer.py](03-Maths/03-Palindrome-Number/answer.py) | [approach.md](03-Maths/03-Palindrome-Number/approach.md) |
+| 4 | [GCD / HCF](03-Maths/04-GCD) | [Code360](https://www.naukri.com/code360/problems/gcd_6557) | [answer.py](03-Maths/04-GCD/answer.py) | [approach.md](03-Maths/04-GCD/approach.md) |
+| 5 | [Armstrong Number](03-Maths/05-Armstrong-Number) | [Code360](https://www.naukri.com/code360/problems/armstrong-number_1462443) | [answer.py](03-Maths/05-Armstrong-Number/answer.py) | [approach.md](03-Maths/05-Armstrong-Number/approach.md) |
+| 6 | [Print All Divisors](03-Maths/06-Print-all-Divisors-of-a-number) | [Code360](https://www.naukri.com/code360/problems/find-all-divisors-of-a-number_1164188) | [answer.py](03-Maths/06-Print-all-Divisors-of-a-number/answer.py) | [approach.md](03-Maths/06-Print-all-Divisors-of-a-number/approach.md) |
+| 7 | [Prime Number](03-Maths/07-Prime-Number) | [Code360](https://www.naukri.com/code360/problems/prime-number_1118113) | [answer.py](03-Maths/07-Prime-Number/answer.py) | [approach.md](03-Maths/07-Prime-Number/approach.md) |
 
 ---
 
 ## Section 4 - Recursion
 
-| # | Problem |
-|---|---------|
-| 1 | [Print 1 to N Without Loop](4-Recursion/1-1-to-N-Without-Loop) |
-| 2 | [Print N to 1 Without Loop](4-Recursion/2-N-to-1-without-loop) |
-| 3 | [Sum of First N Numbers](4-Recursion/3-Sum-of-First-N-Numbers) |
-| 4 | [Factorial of a Number](4-Recursion/4-Factorial-of-a-Number) |
-| 5 | [Reverse an Array](4-Recursion/5-Reverse-an-Array) |
-| 6 | [Valid Palindrome](4-Recursion/6-Valid-Palindrome) |
-| 7 | [Fibonacci Number](4-Recursion/7-Fibonacci-Number) |
+| # | Topic | Problem | Solution | Approach |
+|---|-------|---------|----------|----------|
+| 1 | [Print 1 to N Without Loop](04-Recursion/01-1-to-N-Without-Loop) | [Code360](https://www.naukri.com/code360/problems/print-1-to-n_628290) | [answer.py](04-Recursion/01-1-to-N-Without-Loop/answer.py) | [approach.md](04-Recursion/01-1-to-N-Without-Loop/approach.md) |
+| 2 | [Print N to 1 Without Loop](04-Recursion/02-N-to-1-without-loop) | [Code360](https://www.naukri.com/code360/problems/n-to-1-without-loop_8357243) | [answer.py](04-Recursion/02-N-to-1-without-loop/answer.py) | [approach.md](04-Recursion/02-N-to-1-without-loop/approach.md) |
+| 3 | [Sum of First N Numbers](04-Recursion/03-Sum-of-First-N-Numbers) | [Code360](https://www.naukri.com/code360/problems/sum-of-first-n-numbers_8876068) | [answer.py](04-Recursion/03-Sum-of-First-N-Numbers/answer.py) | [approach.md](04-Recursion/03-Sum-of-First-N-Numbers/approach.md) |
+| 4 | [Factorial of a Number](04-Recursion/04-Factorial-of-a-Number) | [Code360](https://www.naukri.com/code360/problems/factorial_975273) | [answer.py](04-Recursion/04-Factorial-of-a-Number/answer.py) | [approach.md](04-Recursion/04-Factorial-of-a-Number/approach.md) |
+| 5 | [Reverse an Array](04-Recursion/05-Reverse-an-Array) | [Code360](https://www.naukri.com/code360/problems/reverse-an-array_8365444) | [answer.py](04-Recursion/05-Reverse-an-Array/answer.py) | [approach.md](04-Recursion/05-Reverse-an-Array/approach.md) |
+| 6 | [Valid Palindrome](04-Recursion/06-Valid-Palindrome) | [LeetCode](https://leetcode.com/problems/valid-palindrome) | [answer.py](04-Recursion/06-Valid-Palindrome/answer.py) | [approach.md](04-Recursion/06-Valid-Palindrome/approach.md) |
+| 7 | [Fibonacci Number](04-Recursion/07-Fibonacci-Number) | [LeetCode](https://leetcode.com/problems/fibonacci-number/) | [answer.py](04-Recursion/07-Fibonacci-Number/answer.py) | [approach.md](04-Recursion/07-Fibonacci-Number/approach.md) |
 
 ---
 
 ## Section 5 - Hashing
 
-| # | Problem |
-|---|---------|
-| 1a | [Top K Frequent Elements](5-Hashing/1a-Top-K-Frequent-Elements) |
-| 1b | [Unique Number of Occurrences](5-Hashing/1b-Unique-Number-of-Occurrences) |
-| 2 | [Frequency of the Most Frequent Element](5-Hashing/2-Frequency-of-the-Most-Frequent-Element) |
+| # | Topic | Problem | Solution | Approach |
+|---|-------|---------|----------|----------|
+| 1a | [Top K Frequent Elements](05-Hashing/01a-Top-K-Frequent-Elements) | [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/) | [answer.py](05-Hashing/01a-Top-K-Frequent-Elements/answer.py) | [approach.md](05-Hashing/01a-Top-K-Frequent-Elements/approach.md) |
+| 1b | [Unique Number of Occurrences](05-Hashing/01b-Unique-Number-of-Occurrences) | [LeetCode](https://leetcode.com/problems/unique-number-of-occurrences/) | [answer.py](05-Hashing/01b-Unique-Number-of-Occurrences/answer.py) | [approach.md](05-Hashing/01b-Unique-Number-of-Occurrences/approach.md) |
+| 2 | [Frequency of the Most Frequent Element](05-Hashing/02-Frequency-of-the-Most-Frequent-Element) | [LeetCode](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | [answer.py](05-Hashing/02-Frequency-of-the-Most-Frequent-Element/answer.py) | [approach.md](05-Hashing/02-Frequency-of-the-Most-Frequent-Element/approach.md) |
 
 ---
 
 ## Section 6 - Sorting
 
-| # | Problem |
-|---|---------|
-| 1 | [Selection Sort](6-Sorting/1-Selection-Sort) |
-| 2 | [Bubble Sort](6-Sorting/2-Bubble-Sort) |
-| 3 | [Insertion Sort](6-Sorting/3-Insertion-Sort) |
-| 4 | [Merge Sort](6-Sorting/4-Merge-Sort) |
-| 5 | [Quick Sort](6-Sorting/5-Quick-Sort) |
+| # | Topic | Problem | Solution | Approach |
+|---|-------|---------|----------|----------|
+| 1 | [Selection Sort](06-Sorting/01-Selection-Sort) | [Code360](https://www.naukri.com/code360/problems/selection-sort_981162) | [answer.py](06-Sorting/01-Selection-Sort/answer.py) | [approach.md](06-Sorting/01-Selection-Sort/approach.md) |
+| 2 | [Bubble Sort](06-Sorting/02-Bubble-Sort) | [Code360](https://www.naukri.com/code360/problems/bubble-sort_980524) | [answer.py](06-Sorting/02-Bubble-Sort/answer.py) | [approach.md](06-Sorting/02-Bubble-Sort/approach.md) |
+| 3 | [Insertion Sort](06-Sorting/03-Insertion-Sort) | [Code360](https://www.naukri.com/code360/problems/insertion-sort_624381) | [answer.py](06-Sorting/03-Insertion-Sort/answer.py) | [approach.md](06-Sorting/03-Insertion-Sort/approach.md) |
+| 4 | [Merge Sort](06-Sorting/04-Merge-Sort) | [Code360](https://www.naukri.com/code360/problems/merge-sort_920442) | [answer.py](06-Sorting/04-Merge-Sort/answer.py) | [approach.md](06-Sorting/04-Merge-Sort/approach.md) |
+| 5 | [Quick Sort](06-Sorting/05-Quick-Sort) | [Code360](https://www.naukri.com/code360/problems/quick-sort_983625) | [answer.py](06-Sorting/05-Quick-Sort/answer.py) | [approach.md](06-Sorting/05-Quick-Sort/approach.md) |
 
 ---
 
 ## Section 7 - Arrays
 
-| # | Problem |
-|---|---------|
-| 1 | [Largest Element in the Array](7-Arrays/1-Largest-Element-in-the-Array) |
-| 6 | [Rotate Array](7-Arrays/6-Rotate-Array) |
-| 7 | [Move Zeroes](7-Arrays/7-Move-Zeroes) |
-| 14 | [Longest Subarray With Sum K](7-Arrays/14-Longest-Subarray-With-Sum-K) |
-| 15 | [Two Sum](7-Arrays/15-Two-Sum) |
-| 16 | [Sort Colors](7-Arrays/16-Sort-Colors) |
-| 18 | [Maximum Subarray](7-Arrays/18-Maximum-Subarray) |
-| 25 | [Set Matrix Zeroes](7-Arrays/25-Set-Matrix-Zeroes) |
-| 26 | [Rotate Image](7-Arrays/26-Rotate-Image) |
-| 28 | [Subarray Sum Equals K](7-Arrays/28-Subarrat-Sum-Equals-k) |
+| # | Topic | Problem | Solution | Approach |
+|---|-------|---------|----------|----------|
+| 1 | [Largest Element in the Array](07-Arrays/01-Largest-Element-in-the-Array) | [Code360](https://www.naukri.com/code360/problems/largest-element-in-the-array-largest-element-in-the-array_5026279) | [answer.py](07-Arrays/01-Largest-Element-in-the-Array/answer.py) | [approach.md](07-Arrays/01-Largest-Element-in-the-Array/approach.md) |
+| 6 | [Rotate Array](07-Arrays/06-Rotate-Array) | [LeetCode](https://leetcode.com/problems/rotate-array/) | [answer.py](07-Arrays/06-Rotate-Array/answer.py) | [approach.md](07-Arrays/06-Rotate-Array/approach.md) |
+| 7 | [Move Zeroes](07-Arrays/07-Move-Zeroes) | [LeetCode](https://leetcode.com/problems/move-zeroes) | [answer.py](07-Arrays/07-Move-Zeroes/answer.py) | [approach.md](07-Arrays/07-Move-Zeroes/approach.md) |
+| 14 | [Longest Subarray With Sum K](07-Arrays/14-Longest-Subarray-With-Sum-K) | [Code360](https://www.naukri.com/code360/problems/longest-subarray-with-sum-k_6682399) | [answer.py](07-Arrays/14-Longest-Subarray-With-Sum-K/answer.py) | [approach.md](07-Arrays/14-Longest-Subarray-With-Sum-K/approach.md) |
+| 15 | [Two Sum](07-Arrays/15-Two-Sum) | [LeetCode](https://leetcode.com/problems/two-sum) | [answer.py](07-Arrays/15-Two-Sum/answer.py) | [approach.md](07-Arrays/15-Two-Sum/approach.md) |
+| 16 | [Sort Colors](07-Arrays/16-Sort-Colors) | [LeetCode](https://leetcode.com/problems/sort-colors/) | [answer.py](07-Arrays/16-Sort-Colors/answer.py) | [approach.md](07-Arrays/16-Sort-Colors/approach.md) |
+| 18 | [Maximum Subarray](07-Arrays/18-Maximum-Subarray) | [LeetCode](https://leetcode.com/problems/maximum-subarray) | [answer.py](07-Arrays/18-Maximum-Subarray/answer.py) | [approach.md](07-Arrays/18-Maximum-Subarray/approach.md) |
+| 25 | [Set Matrix Zeroes](07-Arrays/25-Set-Matrix-Zeroes) | [LeetCode](https://leetcode.com/problems/set-matrix-zeroes) | [answer.py](07-Arrays/25-Set-Matrix-Zeroes/answer.py) | [approach.md](07-Arrays/25-Set-Matrix-Zeroes/approach.md) |
+| 26 | [Rotate Image](07-Arrays/26-Rotate-Image) | [LeetCode](https://leetcode.com/problems/rotate-image) | [answer.py](07-Arrays/26-Rotate-Image/answer.py) | [approach.md](07-Arrays/26-Rotate-Image/approach.md) |
+| 28 | [Subarray Sum Equals K](07-Arrays/28-Subarrat-Sum-Equals-k) | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k) | [answer.py](07-Arrays/28-Subarrat-Sum-Equals-k/answer.py) | [approach.md](07-Arrays/28-Subarrat-Sum-Equals-k/approach.md) |
 
 ---
 
 ## Section 8 - Binary Search
 
-| # | Problem |
-|---|---------|
-| 1 | [Binary Search](8-Binary-Search/1-Binary-Search) |
-| 2 | [Implement Lower Bound](8-Binary-Search/2-Implement-Lower-Bound) |
-| 3 | [Implement Upper Bound](8-Binary-Search/3-Implement-Upper-Bound) |
-| 4 | [Search Insert Position](8-Binary-Search/4-Search-Insert-Position) |
-| 6 | [Find First and Last Position of Element in Sorted Array](8-Binary-Search/6-Find-First-and-Last-Position-of-Element-in-Sorted-Array) |
-| 8 | [Search in Rotated Sorted Array](8-Binary-Search/8-Search-in-Rotated-Sorted-Array) |
-| 10 | [Find Minimum in Rotated Sorted Array](8-Binary-Search/10-Find-Minimum-in-Rotated-Sorted-Array) |
-| 13 | [Find Peak Element](8-Binary-Search/13-Find-Peak-Element) |
+| # | Topic | Problem | Solution | Approach |
+|---|-------|---------|----------|----------|
+| 1 | [Binary Search](08-Binary-Search/01-Binary-Search) | [LeetCode](https://leetcode.com/problems/binary-search/description/) | [answer.py](08-Binary-Search/01-Binary-Search/answer.py) | [approach.md](08-Binary-Search/01-Binary-Search/approach.md) |
+| 2 | [Implement Lower Bound](08-Binary-Search/02-Implement-Lower-Bound) | [Code360](https://www.naukri.com/code360/problems/lower-bound_8165382) | [answer.py](08-Binary-Search/02-Implement-Lower-Bound/answer.py) | [approach.md](08-Binary-Search/02-Implement-Lower-Bound/approach.md) |
+| 3 | [Implement Upper Bound](08-Binary-Search/03-Implement-Upper-Bound) | [Code360](https://www.naukri.com/code360/problems/upper-bound_8165383) | [answer.py](08-Binary-Search/03-Implement-Upper-Bound/answer.py) | [approach.md](08-Binary-Search/03-Implement-Upper-Bound/approach.md) |
+| 4 | [Search Insert Position](08-Binary-Search/04-Search-Insert-Position) | [LeetCode](https://leetcode.com/problems/search-insert-position) | [answer.py](08-Binary-Search/04-Search-Insert-Position/answer.py) | [approach.md](08-Binary-Search/04-Search-Insert-Position/approach.md) |
+| 6 | [Find First and Last Position of Element in Sorted Array](08-Binary-Search/06-Find-First-and-Last-Position-of-Element-in-Sorted-Array) | [LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [answer.py](08-Binary-Search/06-Find-First-and-Last-Position-of-Element-in-Sorted-Array/answer.py) | [approach.md](08-Binary-Search/06-Find-First-and-Last-Position-of-Element-in-Sorted-Array/approach.md) |
+| 8 | [Search in Rotated Sorted Array](08-Binary-Search/08-Search-in-Rotated-Sorted-Array) | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [answer.py](08-Binary-Search/08-Search-in-Rotated-Sorted-Array/answer.py) | [approach.md](08-Binary-Search/08-Search-in-Rotated-Sorted-Array/approach.md) |
+| 10 | [Find Minimum in Rotated Sorted Array](08-Binary-Search/10-Find-Minimum-in-Rotated-Sorted-Array) | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | [answer.py](08-Binary-Search/10-Find-Minimum-in-Rotated-Sorted-Array/answer.py) | [approach.md](08-Binary-Search/10-Find-Minimum-in-Rotated-Sorted-Array/approach.md) |
+| 13 | [Find Peak Element](08-Binary-Search/13-Find-Peak-Element) | [LeetCode](https://leetcode.com/problems/find-peak-element) | [answer.py](08-Binary-Search/13-Find-Peak-Element/answer.py) | [approach.md](08-Binary-Search/13-Find-Peak-Element/approach.md) |
 
 ---
 
 ## Section 9 - Strings
 
-| # | Problem |
-|---|---------|
-| 2 | [Reverse Words in a String](9-Strings/2-Reverse-Words-in-a-String) |
-| 4 | [Longest Common Prefix](9-Strings/4-Longest-Common-Prefix) |
-| 5 | [Isomorphic Strings](9-Strings/5-Isomorphic-Strings) |
-| 7 | [Valid Anagram](9-Strings/7-Valid-Anagram) |
-| 10 | [Roman to Integer](9-Strings/10-Roman-to-Integer) |
-| 11 | [String to Integer (atoi)](9-Strings/11-String-to-Integer-(atoi)) |
-| 13 | [Longest Palindromic Substring](9-Strings/13-Longest-Palindromic-Substring) |
+| # | Topic | Problem | Solution | Approach |
+|---|-------|---------|----------|----------|
+| 2 | [Reverse Words in a String](09-Strings/02-Reverse-Words-in-a-String) | [LeetCode](https://leetcode.com/problems/reverse-words-in-a-string) | [answer.py](09-Strings/02-Reverse-Words-in-a-String/answer.py) | [approach.md](09-Strings/02-Reverse-Words-in-a-String/approach.md) |
+| 4 | [Longest Common Prefix](09-Strings/04-Longest-Common-Prefix) | [LeetCode](https://leetcode.com/problems/longest-common-prefix) | [answer.py](09-Strings/04-Longest-Common-Prefix/answer.py) | [approach.md](09-Strings/04-Longest-Common-Prefix/approach.md) |
+| 5 | [Isomorphic Strings](09-Strings/05-Isomorphic-Strings) | [LeetCode](https://leetcode.com/problems/isomorphic-strings/description/) | [answer.py](09-Strings/05-Isomorphic-Strings/answer.py) | [approach.md](09-Strings/05-Isomorphic-Strings/approach.md) |
+| 7 | [Valid Anagram](09-Strings/07-Valid-Anagram) | [LeetCode](https://leetcode.com/problems/valid-anagram) | [answer.py](09-Strings/07-Valid-Anagram/answer.py) | [approach.md](09-Strings/07-Valid-Anagram/approach.md) |
+| 10 | [Roman to Integer](09-Strings/10-Roman-to-Integer) | [LeetCode](https://leetcode.com/problems/roman-to-integer/description/) | [answer.py](09-Strings/10-Roman-to-Integer/answer.py) | [approach.md](09-Strings/10-Roman-to-Integer/approach.md) |
+| 11 | [String to Integer (atoi)](09-Strings/11-String-to-Integer-(atoi)) | [LeetCode](https://leetcode.com/problems/string-to-integer-atoi/description/) | [answer.py](09-Strings/11-String-to-Integer-(atoi)/answer.py) | [approach.md](09-Strings/11-String-to-Integer-(atoi)/approach.md) |
+| 13 | [Longest Palindromic Substring](09-Strings/13-Longest-Palindromic-Substring) | [LeetCode](https://leetcode.com/problems/longest-palindromic-substring) | [answer.py](09-Strings/13-Longest-Palindromic-Substring/answer.py) | [approach.md](09-Strings/13-Longest-Palindromic-Substring/approach.md) |
