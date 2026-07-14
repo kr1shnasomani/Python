@@ -1,12 +1,6 @@
-from os import *
-from sys import *
-from collections import *
-from math import *
-
 def isArmstrong(num):
     original = num
 
-    # Extract no. of digits
     count = 0
     temp = num
 
@@ -14,7 +8,6 @@ def isArmstrong(num):
         count += 1
         temp //= 10
 
-    # Extract digit by digit and armstrong calc
     total = 0
     temp = num
 
@@ -24,3 +17,10 @@ def isArmstrong(num):
         temp //= 10
 
     return total == original
+
+# if __name__ == '__main__':
+#     num = int(input("Enter a number: "))
+#     if isArmstrong(num):
+#         print("YES")
+#     else:
+#         print("NO")
