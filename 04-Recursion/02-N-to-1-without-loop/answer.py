@@ -1,10 +1,12 @@
 from typing import List
 
-def printNos(x: int) -> List[int]:
-    result = []
+def printNos(x: int) -> list[int]:
+    if x == 0:
+        return []
 
-    while x > 0:
-        result.append(x)
-        x -= 1
-
+    result = [x] + printNos(x - 1)
     return result
+
+if __name__ == "__main__":
+    x = int(input())
+    print(printNos(x))

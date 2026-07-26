@@ -17,3 +17,7 @@ class Solution:
             return 0
 
         return rev * sign
+
+# if __name__ == "__main__":
+#     n = int(input("Enter a number: "))
+#     print(Solution().reverse(n))

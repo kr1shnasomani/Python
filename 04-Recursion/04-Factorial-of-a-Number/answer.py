@@ -1,9 +1,10 @@
 def factorial(n):
-    fact = 1
-    i = 1
+    if n == 0 or n == 1:
+        return 1
 
-    while i <= n:
-        fact = fact * i
-        i += 1
+    result = n * factorial(n - 1)
+    return result
 
-    print(fact)
+# if __name__ == "__main__":
+#     n = int(input("Enter a number: "))
+#     print(factorial(n))

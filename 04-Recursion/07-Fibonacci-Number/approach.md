@@ -1,0 +1,121 @@
+# Approach
+
+## Main Logic
+
+```python
+result = self.fib(n - 1) + self.fib(n - 2)
+```
+
+- If `n` is `0` or `1`, return `n` because these are the base Fibonacci numbers.
+- Otherwise, find the previous two Fibonacci numbers recursively.
+- Add them together to get the current Fibonacci number.
+- The recursion continues until every call reaches the base case.
+
+**Remember:** Every Fibonacci number is the **sum of the previous two Fibonacci numbers**, so we must calculate both `fib(n-1)` and `fib(n-2)`.
+
+# Approach
+
+## Main Logic
+
+```python
+if n <= 1:
+    return n
+
+return self.fib(n - 1) + self.fib(n - 2)
+```
+
+- If `n` is `0` or `1`, return `n` because these are the base Fibonacci numbers.
+- Otherwise, recursively find the previous two Fibonacci numbers.
+- Add them together to get the current Fibonacci number.
+
+**Remember:** The question itself gives the recursive formula:
+
+```text
+F(0) = 0
+F(1) = 1
+F(n) = F(n-1) + F(n-2), for n > 1
+```
+
+So we directly implement this definition using recursion.
+
+---
+
+## Dry Run
+
+### Example 1
+
+**Input:** `n = 2`
+
+```text
+fib(2)
+= fib(1) + fib(0)
+
+= 1 + 0
+
+= 1
+```
+
+**Output:**
+
+```text
+1
+```
+
+---
+
+### Example 2
+
+**Input:** `n = 3`
+
+```text
+fib(3)
+= fib(2) + fib(1)
+
+= (fib(1) + fib(0)) + 1
+
+= (1 + 0) + 1
+
+= 2
+```
+
+**Output:**
+
+```text
+2
+```
+
+---
+
+### Example 3
+
+**Input:** `n = 4`
+
+```text
+fib(4)
+= fib(3) + fib(2)
+
+= (fib(2) + fib(1)) + fib(2)
+
+= ((fib(1) + fib(0)) + 1) + (fib(1) + fib(0))
+
+= ((1 + 0) + 1) + (1 + 0)
+
+= (1 + 1) + 1
+
+= 2 + 1
+
+= 3
+```
+
+**Output:**
+
+```text
+3
+```
+
+---
+
+## Complexity Analysis
+
+- **Time Complexity:** `O(2ⁿ)` (the same Fibonacci numbers are calculated repeatedly)
+- **Space Complexity:** `O(n)` (recursive call stack)

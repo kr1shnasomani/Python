@@ -1,5 +1,7 @@
-from typing import List
+def sumFirstN(n: int):
+    result = (n * (n + 1)) // 2
+    return result
 
-def sumFirstN(n: int) -> int:
-    # Write your code here.
-    return (n * (n + 1)) // 2
+# if __name__ == "__main__":
+#     n = int(input("Enter a number:"))
+#     print(sumFirstN(n))
