@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         count = 0
@@ -11,3 +14,7 @@ class Solution:
                 count = 0
 
         return max_count
+
+# if __name__ == "__main__":
+#     nums = list(map(int, input("Enter the array: ").split()))
+#     print(Solution().findMaxConsecutiveOnes(nums))

@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         j = 0
@@ -7,3 +10,8 @@ class Solution:
                 nums[i] = nums[j]
                 nums[j] = temp
                 j += 1
+
+# if __name__ == "__main__":
+#     nums = list(map(int, input("Enter the array: ").split()))
+#     Solution().moveZeroes(nums)
+#     print(nums)

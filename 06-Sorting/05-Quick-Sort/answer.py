@@ -26,3 +26,7 @@ def quick_sort(arr, low, high):
 def quickSort(arr):
     quick_sort(arr, 0, len(arr) - 1)
     return arr
+
+# if __name__ == "__main__":
+#     arr = list(map(int, input("Enter the array: ").split()))
+#     print(quickSort(arr))

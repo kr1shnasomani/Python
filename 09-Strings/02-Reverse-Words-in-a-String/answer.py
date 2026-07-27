@@ -4,5 +4,9 @@ class Solution:
         words.reverse()
 
         answer = " ".join(words)
-        
+
         return answer
+
+# if __name__ == "__main__":
+#     s = input("Enter the string: ")
+#     print(Solution().reverseWords(s))

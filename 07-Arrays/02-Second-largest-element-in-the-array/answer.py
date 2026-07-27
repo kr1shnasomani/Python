@@ -15,3 +15,7 @@ def findSecondLargest(sequenceOfNumbers):
         return -1
 
     return slargest
+
+# if __name__ == "__main__":
+#     sequenceOfNumbers = list(map(int, input("Enter the array: ").split()))
+#     print(findSecondLargest(sequenceOfNumbers))

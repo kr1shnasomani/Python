@@ -6,3 +6,9 @@ def insertionSort(arr, n):
             arr[j + 1] = arr[j]
             j = j - 1
         arr[j + 1] = current
+
+# if __name__ == "__main__":
+#     arr = list(map(int, input("Enter the array: ").split()))
+#     n = len(arr)
+#     insertionSort(arr, n)
+#     print(arr)

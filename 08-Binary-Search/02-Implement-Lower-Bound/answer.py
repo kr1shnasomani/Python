@@ -11,5 +11,11 @@ def lowerBound(arr: [int], n: int, x: int) -> int:
             high = mid - 1
         else:
             low = mid + 1
-    
+
     return ans
+
+# if __name__ == "__main__":
+#     arr = list(map(int, input("Enter the sorted array: ").split()))
+#     n = len(arr)
+#     x = int(input("Enter x: "))
+#     print(lowerBound(arr, n, x))

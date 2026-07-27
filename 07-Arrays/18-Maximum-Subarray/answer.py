@@ -1,8 +1,11 @@
+from typing import List
+
+
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         current_sum = nums[0]
         max_sum = nums[0]
-        
+
         n = len(nums)
 
         for i in range(1, n):
@@ -15,3 +18,7 @@ class Solution:
                 max_sum = current_sum
 
         return max_sum
+
+# if __name__ == "__main__":
+#     nums = list(map(int, input("Enter the array: ").split()))
+#     print(Solution().maxSubArray(nums))

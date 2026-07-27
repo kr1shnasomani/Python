@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         rows = len(matrix)
@@ -21,3 +24,8 @@ class Solution:
 
             if col0 == 0:
                 matrix[i][0] = 0
+
+# if __name__ == "__main__":
+#     matrix = eval(input("Enter the matrix: "))
+#     Solution().setZeroes(matrix)
+#     print(matrix)

@@ -13,31 +13,6 @@ result = self.fib(n - 1) + self.fib(n - 2)
 
 **Remember:** Every Fibonacci number is the **sum of the previous two Fibonacci numbers**, so we must calculate both `fib(n-1)` and `fib(n-2)`.
 
-# Approach
-
-## Main Logic
-
-```python
-if n <= 1:
-    return n
-
-return self.fib(n - 1) + self.fib(n - 2)
-```
-
-- If `n` is `0` or `1`, return `n` because these are the base Fibonacci numbers.
-- Otherwise, recursively find the previous two Fibonacci numbers.
-- Add them together to get the current Fibonacci number.
-
-**Remember:** The question itself gives the recursive formula:
-
-```text
-F(0) = 0
-F(1) = 1
-F(n) = F(n-1) + F(n-2), for n > 1
-```
-
-So we directly implement this definition using recursion.
-
 ---
 
 ## Dry Run

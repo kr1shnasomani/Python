@@ -6,6 +6,11 @@ def selectionSort(arr, n):
             if arr[j] < arr[min_index]:
                 min_index = j
 
-        temp = arr[i]
-        arr[i] = arr[min_index]
-        arr[min_index] = temp
+        arr[i], arr[min_index] = arr[min_index], arr[i]
+
+    return arr
+
+# if __name__ == "__main__":
+#     arr = list(map(int, input("Enter the array: ").split()))
+#     n = len(arr)
+#     print(selectionSort(arr, n))

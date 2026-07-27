@@ -1,23 +1,22 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        left = 0
-        right = len(s) - 1
+        def check(left, right):
+            if left >= right:
+                return True
 
-        while left < right:
-            while left < right and not s[left].isalnum():
-                left += 1
+            if not s[left].isalnum():
+                return check(left + 1, right)
 
-            while left < right and not s[right].isalnum():
-                right -= 1
+            if not s[right].isalnum():
+                return check(left, right - 1)
 
             if s[left].lower() != s[right].lower():
                 return False
 
-            left += 1
-            right -= 1
+            return check(left + 1, right - 1)
 
-        return True
+        return check(0, len(s) - 1)
 
-if __name__ == "__main__":
-    s = input("Enter a string: ")
-    print(Solution().isPalindrome(s))
+# if __name__ == "__main__":
+#     s = input("Enter a string: ")
+#     print(Solution().isPalindrome(s))

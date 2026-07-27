@@ -35,3 +35,8 @@ def sortedArray(a: [int], b: [int]) -> [int]:
         j += 1
 
     return union
+
+# if __name__ == "__main__":
+#     a = list(map(int, input("Enter the first sorted array: ").split()))
+#     b = list(map(int, input("Enter the second sorted array: ").split()))
+#     print(sortedArray(a, b))

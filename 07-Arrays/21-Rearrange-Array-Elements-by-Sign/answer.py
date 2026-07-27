@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def rearrangeArray(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -15,3 +18,7 @@ class Solution:
                 negative += 2
 
         return ans
+
+# if __name__ == "__main__":
+#     nums = list(map(int, input("Enter the array: ").split()))
+#     print(Solution().rearrangeArray(nums))

@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def lowerBound(self, nums: List[int], n: int, target: int) -> int:
         low = 0
@@ -41,3 +44,8 @@ class Solution:
             return [-1, -1]
 
         return [lb, ub - 1]
+
+# if __name__ == "__main__":
+#     nums = list(map(int, input("Enter the sorted array: ").split()))
+#     target = int(input("Enter the target: "))
+#     print(Solution().searchRange(nums, target))

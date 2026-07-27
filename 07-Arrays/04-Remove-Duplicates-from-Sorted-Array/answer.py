@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         n = len(nums)
@@ -9,3 +12,7 @@ class Solution:
                 i += 1
 
         return i + 1
+
+# if __name__ == "__main__":
+#     nums = list(map(int, input("Enter the sorted array: ").split()))
+#     print(Solution().removeDuplicates(nums))

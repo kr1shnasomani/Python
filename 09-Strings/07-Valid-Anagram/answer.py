@@ -18,5 +18,10 @@ class Solution:
 
             if count[char] < 0:
                 return False
-        
+
         return True
+
+# if __name__ == "__main__":
+#     s = input("Enter the first string: ")
+#     t = input("Enter the second string: ")
+#     print(Solution().isAnagram(s, t))

@@ -38,3 +38,8 @@ def merge_sort(arr, left, right):
 def mergeSort(arr, n):
     merge_sort(arr, 0, n - 1)
     return arr
+
+# if __name__ == "__main__":
+#     arr = list(map(int, input("Enter the array: ").split()))
+#     n = len(arr)
+#     print(mergeSort(arr, n))

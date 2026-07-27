@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         n = len(nums)
@@ -24,3 +27,8 @@ class Solution:
                 nums[high] = temp
 
                 high -= 1
+
+# if __name__ == "__main__":
+#     nums = list(map(int, input("Enter the array (0s, 1s, 2s): ").split()))
+#     Solution().sortColors(nums)
+#     print(nums)

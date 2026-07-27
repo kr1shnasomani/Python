@@ -6,7 +6,7 @@ def gcd(x: int, y: int) -> int:
 
     return x
 
-if __name__ == "__main__":
-    x = int(input())
-    y = int(input())
-    print(gcd(x, y))
+# if __name__ == "__main__":
+#     x = int(input())
+#     y = int(input())
+#     print(gcd(x, y))

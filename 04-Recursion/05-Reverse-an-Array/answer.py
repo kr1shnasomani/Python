@@ -1,12 +1,17 @@
-from typing import *
+from typing import List
 
 def reverseArray(n: int, nums: List[int]) -> List[int]:
-    result = []
-    for i in range(n - 1, -1, -1):
-        result.append(nums[i])
-    return result
+    def reverse(left: int, right: int):
+        if left >= right:
+            return
+
+        nums[left], nums[right] = nums[right], nums[left]
+        reverse(left + 1, right - 1)
+
+    reverse(0, n - 1)
+    return nums
 
 # if __name__ == "__main__":
-#     n = int(input("Enter the size of the array: "))
-#     nums = list(map(int, input("Enter the elements of the array: ").split()))
+#     nums = list(map(int, input("Enter the array: ").split()))
+#     n = len(nums)
 #     print(reverseArray(n, nums))

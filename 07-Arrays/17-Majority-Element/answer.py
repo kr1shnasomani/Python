@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         n = len(nums)
@@ -28,3 +31,7 @@ class Solution:
         #     return element
         # else:
         #     return -1
+
+# if __name__ == "__main__":
+#     nums = list(map(int, input("Enter the array: ").split()))
+#     print(Solution().majorityElement(nums))

@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         n = len(nums)
@@ -18,3 +21,8 @@ class Solution:
                 low = mid + 1
 
         return -1
+
+# if __name__ == "__main__":
+#     nums = list(map(int, input("Enter the sorted array: ").split()))
+#     target = int(input("Enter the target: "))
+#     print(Solution().search(nums, target))
