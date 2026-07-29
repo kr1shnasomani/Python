@@ -1,4 +1,4 @@
-def largestElement(arr: [], n: int) -> int:
+def largestElement(arr: list[int], n: int) -> int:
     largest = arr[0]
 
     for i in range(1, n):

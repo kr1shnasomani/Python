@@ -9,5 +9,4 @@ def bubbleSort(arr,n):
 # if __name__ == "__main__":
 #     arr = list(map(int, input("Enter the array: ").split()))
 #     n = len(arr)
-#     bubbleSort(arr, n)
-#     print(arr)
+#     print(bubbleSort(arr, n))

@@ -1,15 +1,13 @@
 def findSecondLargest(sequenceOfNumbers):
-    n = len(sequenceOfNumbers)
-
     largest = float('-inf')
     slargest = float('-inf')
 
-    for i in range(n):
-        if sequenceOfNumbers[i] > largest:
+    for num in sequenceOfNumbers:
+        if num > largest:
             slargest = largest
-            largest = sequenceOfNumbers[i]
-        elif sequenceOfNumbers[i] > slargest and sequenceOfNumbers[i] != largest:
-            slargest = sequenceOfNumbers[i]
+            largest = num
+        elif num > slargest and num != largest:
+            slargest = num
 
     if slargest == float('-inf'):
         return -1

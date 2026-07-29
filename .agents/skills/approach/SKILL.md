@@ -11,10 +11,26 @@ Whenever I paste a problem's `question.md` content together with its finalized `
 # Approach
 
 ## Main Logic
-- Include **one minimal code snippet** containing only the core algorithm (no function definition, no unnecessary boilerplate).
-- Keep it as small as possible while still showing the complete idea.
+- Include **one minimal code snippet** containing only the core trick — no function definition, no loop headers (`for`/`while`), no variable initialization (`j = 0`, `count = 0`), no unnecessary boilerplate. If the loop/initialization matters for understanding, explain it in the bullet points below instead of showing it as code.
+- Keep it as small as possible while still showing the complete idea — usually just the body of the innermost block.
 - Explain the logic in short bullet points.
 - End with a **Remember:** line summarizing the key takeaway.
+
+Example (Move Zeroes) — too much:
+```python
+j = 0
+for i in range(len(nums)):
+    if nums[i] != 0:
+        nums[i], nums[j] = nums[j], nums[i]
+        j += 1
+```
+Just right:
+```python
+if nums[i] != 0:
+    nums[i], nums[j] = nums[j], nums[i]
+    j += 1
+```
+The loop and `j = 0` are explained in prose ("`i` scans every element, `j` tracks where the next non-zero goes") — not repeated in code.
 
 ## Flow (Only if Needed)
 - Include this section **only if it adds value** beyond the dry run (e.g., recursion tree, recursion expansion, DFS/BFS flow, binary search pointer movement, backtracking choices, etc.).

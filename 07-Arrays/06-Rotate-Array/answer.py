@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         n = len(nums)
@@ -14,5 +13,4 @@ class Solution:
 # if __name__ == "__main__":
 #     nums = list(map(int, input("Enter the array: ").split()))
 #     k = int(input("Enter k: "))
-#     Solution().rotate(nums, k)
-#     print(nums)
+#     print(Solution().rotate(nums, k))
