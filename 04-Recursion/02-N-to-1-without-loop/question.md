@@ -19,8 +19,6 @@ Your task is to return an array containing integers from `n` to `1` (in decreasi
 
 **Explanation:** An array containing integers from `n` to `1` is `[5, 4, 3, 2, 1]`.
 
-## Detailed explanation ( Input/output format, Notes, Images )
-
 ### Sample Input 1:
 
 ```text

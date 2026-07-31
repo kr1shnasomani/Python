@@ -15,18 +15,16 @@ If `num` is present in the array, return the **0-based index** of the **first oc
 
 `4` is present at the 3rd index.
 
-Detailed explanation ( Input/output format, Notes, Images )
-
 ### Sample Input 1:
 
-```text id="8jg8rw"
+```text
 5 4
 6 7 8 4 1
 ```
 
 ### Sample Output 1:
 
-```text id="jgk8l2"
+```text
 3
 ```
 
@@ -36,14 +34,14 @@ Detailed explanation ( Input/output format, Notes, Images )
 
 ### Sample Input 2:
 
-```text id="m8r1zx"
+```text
 4 2
 2 5 6 2
 ```
 
 ### Sample Output 2:
 
-```text id="vx0b7p"
+```text
 0
 ```
 

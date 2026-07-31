@@ -10,6 +10,8 @@ class Solution:
         nums[:k] = reversed(nums[:k])
         nums[k:] = reversed(nums[k:])
 
+        return nums
+
 # if __name__ == "__main__":
 #     nums = list(map(int, input("Enter the array: ").split()))
 #     k = int(input("Enter k: "))

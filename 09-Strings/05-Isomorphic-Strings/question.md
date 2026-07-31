@@ -1,4 +1,4 @@
-https://leetcode.com/problems/isomorphic-strings/description/
+https://leetcode.com/problems/isomorphic-strings
 
 Given two strings `s` and `t`, determine if they are isomorphic.
 

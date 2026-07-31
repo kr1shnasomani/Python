@@ -10,8 +10,6 @@ Given an array `arr` of size `n`, find the largest element in the array.
 
 **Explanation:** From the array `{1, 2, 3, 4, 5}`, the largest element is `5`.
 
-Detailed explanation ( Input/output format, Notes, Images )
-
 ### Sample Input 1:
 
 ```text

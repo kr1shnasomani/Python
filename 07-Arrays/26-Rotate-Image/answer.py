@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         n = len(matrix)
@@ -23,7 +22,9 @@ class Solution:
                 left += 1
                 right -= 1
 
+        return matrix
+
 # if __name__ == "__main__":
-#     matrix = eval(input("Enter the matrix: "))
-#     Solution().rotate(matrix)
-#     print(matrix)
+#     import ast
+#     matrix = ast.literal_eval(input("Enter the matrix: "))
+#     print(Solution().rotate(matrix))

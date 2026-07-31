@@ -6,7 +6,7 @@ You have to rotate the image **in-place**, which means you have to modify the in
 
 ## Example 1
 
-![alt text](image.png)
+![alt text](image1.png)
 
 **Input:** `matrix = [[1,2,3],[4,5,6],[7,8,9]]`
 
@@ -14,7 +14,7 @@ You have to rotate the image **in-place**, which means you have to modify the in
 
 ## Example 2
 
-![alt text](image-1.png)
+![alt text](image2.png)
 
 **Input:** `matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]`
 

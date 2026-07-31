@@ -8,6 +8,8 @@ class Solution:
                 nums[i], nums[j] = nums[j], nums[i]
                 j += 1
 
+        return nums
+
 # if __name__ == "__main__":
 #     nums = list(map(int, input("Enter the array: ").split()))
 #     print(Solution().moveZeroes(nums))

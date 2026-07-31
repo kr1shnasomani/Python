@@ -13,8 +13,6 @@ Return the number of digits in `n`.
 **Explanation:**  
 The 3 digits in `123` are 1, 2 and 3.
 
-Detailed explanation (Input/output format, Notes, Images)
-
 ## Sample Input 1
 
 ```text

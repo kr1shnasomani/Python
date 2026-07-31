@@ -20,7 +20,7 @@ for i in range(n - 1):
 
 ## Flow
 
-![alt text](image.png)
+![alt text](image1.png)
 
 ---
 

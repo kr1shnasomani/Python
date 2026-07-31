@@ -15,8 +15,6 @@ Return an array with all the elements placed in reverse order.
 
 **Explanation:** After reversing the array, it looks like this `[3, 6, 1, 8, 7, 5]`.
 
-## Detailed explanation ( Input/output format, Notes, Images )
-
 ### Sample Input 1:
 
 ```text

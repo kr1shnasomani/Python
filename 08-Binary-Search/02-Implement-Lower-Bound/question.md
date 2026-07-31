@@ -19,8 +19,6 @@ You must return the index of the lower bound of `x`.
 **Explanation:**  
 Index `0` is the smallest index such that `arr[0]` is not less than `x`.
 
-Detailed explanation (Input/output format, Notes, Images)
-
 ## Constraints
 
 - `1 <= n <= 10^5`

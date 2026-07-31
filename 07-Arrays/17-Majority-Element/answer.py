@@ -1,11 +1,8 @@
 from typing import List
 
-
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         n = len(nums)
-        req = n // 2
-
         element = nums[0]
         count = 1
 
@@ -20,14 +17,13 @@ class Solution:
 
         return element
 
-        # if asked to find if majority element exist or not
         # check = 0
 
         # for num in nums:
         #     if num == element:
         #         check += 1
 
-        # if check > req:
+        # if check > n // 2:
         #     return element
         # else:
         #     return -1

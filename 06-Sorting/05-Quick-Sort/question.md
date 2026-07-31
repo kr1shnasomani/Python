@@ -10,13 +10,11 @@ Let the array = `[4, 2, 1, 5, 3]`
 
 Let pivot be the rightmost number.
 
-![alt text](image.png)
+![alt text](image1.png)
 
 After the 1st level partitioning the array will be `{2, 1, 3, 4, 5}` as 3 was the pivot.
 
 After the 2nd level partitioning the array will be `{1, 2, 3, 4, 5}` as 1 was the pivot for the left part and 5 was the pivot for the right part. Now our array is sorted and there is no need to divide it again.
-
-Detailed explanation (Input/output format, Notes, Images)
 
 ## Constraints
 

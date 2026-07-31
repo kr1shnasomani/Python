@@ -8,8 +8,6 @@ Given an integer `N`, your task is to write a program that returns all the divis
 
 The divisors of 5 are 1, 5.
 
-Detailed explanation (Input/output format, Notes, Images)
-
 ## Sample Input 1
 
 ```text

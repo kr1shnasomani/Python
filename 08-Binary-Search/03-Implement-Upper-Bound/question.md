@@ -16,8 +16,6 @@ You are given a sorted array `arr` containing `n` integers and an integer `x`. I
 
 **Explanation:** The upper bound of 5 is 6 in the given array, which is at index 2 (00-indexed).
 
-Detailed explanation ( Input/output format, Notes, Images )
-
 ### Constraints:
 
 * `1 <= 'n' <= 10^5`

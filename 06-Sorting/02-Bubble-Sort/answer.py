@@ -6,6 +6,8 @@ def bubbleSort(arr,n):
                 arr[j] = arr[j + 1]
                 arr[j + 1] = temp
 
+    return arr
+
 # if __name__ == "__main__":
 #     arr = list(map(int, input("Enter the array: ").split()))
 #     n = len(arr)

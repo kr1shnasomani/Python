@@ -17,6 +17,18 @@ result = (n * (n + 1)) // 2
 
 ---
 
+## Key Concept
+
+### Gauss's Sum Formula
+
+- Property: `1 + 2 + 3 + ... + n = n × (n + 1) / 2`.
+- Why it works: pair the first and last numbers (`1` and `n`), the second and second-last (`2` and `n-1`), and so on. Every pair adds up to the same value, `n + 1`. There are `n / 2` such pairs.
+- So the total sum is `(n + 1) × (n / 2)`, which is the same as `n × (n + 1) / 2`.
+
+**Remember:** Pairing numbers from both ends always gives the same sum (`n + 1`). That's why the formula works, so there's no need to add numbers one at a time.
+
+---
+
 ## Dry Run
 
 ### Example 1: `n = 3`

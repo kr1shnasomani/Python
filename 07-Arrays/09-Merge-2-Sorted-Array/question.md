@@ -21,11 +21,9 @@ Distinct elements in `a` are: `[1, 4, 6]`
 Distinct elements in `b` are: `[5]`
 Union of `a` and `b` is: `[1, 2, 3, 4, 5, 6]`
 
-Detailed explanation ( Input/output format, Notes, Images )
-
 ### Sample Input 1:
 
-```text id="v7g3fw"
+```text
 5 3
 1 2 3 4 6
 2 3 5
@@ -33,7 +31,7 @@ Detailed explanation ( Input/output format, Notes, Images )
 
 ### Sample Output 1:
 
-```text id="xn8k5j"
+```text
 1 2 3 4 5 6
 ```
 
@@ -52,7 +50,7 @@ Union of `a` and `b` is: `[1, 2, 3, 4, 5, 6]`
 
 ### Sample Input 2:
 
-```text id="5c9mzt"
+```text
 4 3
 1 2 3 3
 2 2 4
@@ -60,7 +58,7 @@ Union of `a` and `b` is: `[1, 2, 3, 4, 5, 6]`
 
 ### Sample Output 2:
 
-```text id="hk4p2q"
+```text
 1 2 3 4
 ```
 

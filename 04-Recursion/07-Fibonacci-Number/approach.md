@@ -15,6 +15,18 @@ result = self.fib(n - 1) + self.fib(n - 2)
 
 ---
 
+## Key Concept
+
+### Overlapping Subproblems
+
+- This recursive solution recalculates the same smaller Fibonacci numbers again and again. For example, `fib(5)` calls `fib(3)` twice, `fib(2)` three times, and so on.
+- Property: the number of recursive calls roughly doubles with every increase in `n`, giving `O(2ⁿ)` time. This branching pattern is called an exponential recursion tree.
+- Why it's slow: none of the repeated work is reused; each call redoes the same calculation from scratch.
+
+**Remember:** This naive version is correct but slow because of repeated work. Later on, memoization/DP techniques store already-computed results so the same subproblem is never solved twice.
+
+---
+
 ## Dry Run
 
 ### Example 1

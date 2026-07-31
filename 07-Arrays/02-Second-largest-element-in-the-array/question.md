@@ -18,8 +18,6 @@ b) If no such element is present return `-1`.
 
 In the given sequence of numbers, number `8` is the largest element, followed by number `6` which is the second-largest element. Hence we return number `6` which is the second-largest element in the sequence.
 
-Detailed explanation ( Input/output format, Notes, Images )
-
 ### Constraints:
 
 * `1 <= T <= 100`
@@ -32,7 +30,7 @@ Where `T` is the total number of test cases, `N` denotes the number of elements 
 
 ### Sample Input 1:
 
-```text id="g2v8y5"
+```text
 2
 6
 12 1 35 10 34 1
@@ -42,7 +40,7 @@ Where `T` is the total number of test cases, `N` denotes the number of elements 
 
 ### Sample Output 1:
 
-```text id="j6m2xw"
+```text
 34
 -1
 ```
@@ -55,7 +53,7 @@ Where `T` is the total number of test cases, `N` denotes the number of elements 
 
 ### Sample Input 2:
 
-```text id="v7p9kn"
+```text
 1
 6
 7 8 8 1 4 3
@@ -63,7 +61,7 @@ Where `T` is the total number of test cases, `N` denotes the number of elements 
 
 ### Sample Output 2:
 
-```text id="w4z1lc"
+```text
 7
 ```
 

@@ -19,6 +19,18 @@ reverse(left + 1, right - 1)
 
 ---
 
+## Key Concept
+
+### Two-Pointer Technique
+
+- Property: use two pointers moving toward each other (or in the same direction) instead of nested loops or extra space.
+- Why it works: many array problems only need to compare or swap elements from opposite ends, or track two positions at once. A single pass with two pointers handles this in `O(n)` time and `O(1)` extra space.
+- Here, `left` starts at the front and `right` starts at the back; they swap and move inward until they meet.
+
+**Remember:** Whenever you need to process an array from both ends at once, two pointers moving toward each other usually does it in one pass.
+
+---
+
 ## Dry Run
 
 ### Example

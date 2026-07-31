@@ -20,6 +20,19 @@ if n % i == 0:
 
 ---
 
+## Key Concept
+
+### Divisors Come in Pairs
+
+- Divisors of a number `n` always come in pairs: if `i` divides `n`, then `n // i` also divides `n`.
+- Property: for every divisor `i ≤ √n`, there's a matching divisor `n // i ≥ √n`.
+- Why it works: divisors are symmetric around `√n`. One half of every pair is always ≤ `√n`, so checking only up to `√n` is guaranteed to find both halves of each pair.
+- Special case: when `i == n // i` (n is a perfect square), both halves of the pair are the same number, so add it only once.
+
+**Remember:** You never need to check past `√n`. Every divisor beyond it is just the "partner" of one you've already found below it.
+
+---
+
 ## Dry Run
 
 ### Example 1: `n = 10`

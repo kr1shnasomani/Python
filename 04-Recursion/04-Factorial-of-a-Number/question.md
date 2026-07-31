@@ -6,8 +6,6 @@ You are given an integer `N`. You have to print the value of Factorial of `N`. T
 
 Consider if `N = 4`, the Factorial of `4` will be the product of all numbers from `1` to `4`, which is `1 * 2 * 3 * 4 = 24`. Hence, the answer is `24`.
 
-## Detailed explanation ( Input/output format, Notes, Images )
-
 ### Constraints:
 
 - `1 <= T <= 10`

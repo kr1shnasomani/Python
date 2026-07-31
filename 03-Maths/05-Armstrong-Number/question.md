@@ -10,8 +10,6 @@ A k-digit number `NUM` is an Armstrong number if and only if the k-th power of e
 
 Therefore 153 is an Armstrong number.
 
-Detailed explanation (Input/output format, Notes, Images)
-
 ## Constraints
 
 - 1 <= `T` <= 100

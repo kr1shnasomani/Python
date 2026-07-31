@@ -8,8 +8,6 @@ Change in the input array itself. You don't need to return or print the elements
 
 ---
 
-# Detailed explanation ( Input/output format, Notes, Images )
-
 ## Constraints :
 
 - 0 <= N <= 10^3

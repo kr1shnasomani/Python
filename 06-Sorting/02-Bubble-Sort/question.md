@@ -8,11 +8,9 @@ You are given an unsorted array consisting of N non-negative integers. Your task
 
 Bubble Sort implementation for the given array: {6,2,8,4,10} is shown below :-
 
-![alt text](image.png)
+![alt text](image1.png)
 
 ---
-
-# Detailed explanation ( Input/output format, Notes, Images )
 
 ## Constraints:
 

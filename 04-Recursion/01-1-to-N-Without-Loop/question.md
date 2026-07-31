@@ -16,8 +16,6 @@ Your task is to return an array containing integers from `1` to `n` (in increasi
 
 **Explanation:** An array containing integers from `1` to `n` is `[1, 2, 3, 4, 5]`.
 
-## Detailed explanation ( Input/output format, Notes, Images )
-
 ### Sample Input 1:
 
 ```text

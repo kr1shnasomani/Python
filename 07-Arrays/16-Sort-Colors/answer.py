@@ -28,7 +28,8 @@ class Solution:
 
                 high -= 1
 
+        return nums
+
 # if __name__ == "__main__":
 #     nums = list(map(int, input("Enter the array (0s, 1s, 2s): ").split()))
-#     Solution().sortColors(nums)
-#     print(nums)
+#     print(Solution().sortColors(nums))

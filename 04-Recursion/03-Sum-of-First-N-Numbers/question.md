@@ -12,8 +12,6 @@ Your task is determining the sum of the first ‘n’ natural numbers and return
 
 **Explanation:** The sum of the first 3 natural numbers is 1 + 2 + 3, equal to 6.
 
-## Detailed explanation ( Input/output format, Notes, Images )
-
 ### Sample Input 1:
 
 ```text

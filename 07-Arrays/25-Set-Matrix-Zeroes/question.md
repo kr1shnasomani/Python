@@ -6,7 +6,7 @@ You must do it **in place**.
 
 ## Example 1
 
-![alt text](image.png)
+![alt text](image1.png)
 
 **Input:** `matrix = [[1,1,1],[1,0,1],[1,1,1]]`
 
@@ -14,7 +14,7 @@ You must do it **in place**.
 
 ## Example 2
 
-![alt text](image-1.png)
+![alt text](image2.png)
 
 **Input:** `matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]`
 

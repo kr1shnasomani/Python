@@ -8,11 +8,9 @@ You are given an unsorted array consisting of N non-negative integers. Your task
 
 Selection Sort implementation for the given array: {29,72,98,13,87,66,52,51,36} is shown below :-
 
-![alt text](image.png)
+![alt text](image1.png)
 
 ---
-
-# Detailed explanation ( Input/output format, Notes, Images )
 
 ## Constraints:
 

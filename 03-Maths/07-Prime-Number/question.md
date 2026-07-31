@@ -4,8 +4,6 @@ Write a program to check whether the given number `N` is prime or not.
 
 For a given number `N`, check if it is prime or not. A prime number is a number that is only divisible by 1 and itself.
 
-Detailed explanation (Input/output format, Notes, Images)
-
 ## Constraints
 
 - 0 <= `N` <= 10,000

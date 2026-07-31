@@ -20,19 +20,15 @@ nums[k:] = reversed(nums[k:])
 
 ---
 
-## Flow
+## Key Concept
 
-```text
-Original Array
-      ↓
-Reverse Whole Array
-      ↓
-Reverse First k Elements
-      ↓
-Reverse Remaining Elements
-      ↓
-Right Rotated Array
-```
+### Reversal Algorithm for Rotation
+
+- Property: rotating an array right by `k` is the same as reversing the whole array, then reversing the first `k` elements, then reversing the remaining `n - k` elements.
+- Why it works: reversing the whole array flips every element's order, including flipping the relative order of the two chunks that need to swap places. Reversing each chunk on its own then restores the correct order *inside* each chunk while keeping the chunks swapped.
+- This achieves the rotation in-place, without any extra array.
+
+**Remember:** Reverse Whole → Reverse First k → Reverse Remaining. Three reversals give you a rotation using zero extra space.
 
 ---
 
@@ -78,5 +74,5 @@ Right Rotated Array
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – We reverse the array three times, and each reversal takes linear time.
-- **Space Complexity:** `O(1)` – The rotation is performed in-place without using any extra array.
+- **Time Complexity:** `O(n)`. We reverse the array three times, and each reversal takes linear time.
+- **Space Complexity:** `O(1)`. The rotation is performed in-place without using any extra array.

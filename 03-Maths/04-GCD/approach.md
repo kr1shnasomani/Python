@@ -18,6 +18,19 @@ y = remainder
 
 ---
 
+## Key Concept
+
+### Euclidean Algorithm
+
+- We don't need to check every number up to the smaller value to find the GCD.
+- Property: `gcd(x, y) = gcd(y, x % y)`. The GCD of two numbers equals the GCD of the smaller number and the remainder.
+- Why it works: any number that divides both `x` and `y` must also divide `x % y` (since `x = q * y + remainder`), so the common divisors never change when we swap in the remainder.
+- Base case: once the remainder becomes `0`, the other number left is the GCD.
+
+**Remember:** `gcd(x, y) = gcd(y, x % y)`. This lets us shrink two large numbers down to the answer in a handful of steps instead of checking every number in between.
+
+---
+
 ## Dry Run
 
 ### Example 1: `x = 20`, `y = 5`

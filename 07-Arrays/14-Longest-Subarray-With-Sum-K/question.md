@@ -23,8 +23,6 @@ Subarrays whose sum = `3` are:
 
 Here, the length of the longest subarray is `3`, which is our final answer.
 
-Detailed explanation (Input/output format, Notes, Images)
-
 ## Sample Input 1
 
 ```text

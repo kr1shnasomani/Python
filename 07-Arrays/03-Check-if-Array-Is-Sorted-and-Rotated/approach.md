@@ -21,7 +21,7 @@ if nums[i] > nums[(i + 1) % n]:
 
 ## Flow
 
-![alt text](image.png)
+![alt text](image1.png)
 
 ---
 
