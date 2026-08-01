@@ -48,7 +48,8 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 |---|-------|
 | 1a | [Top K Frequent Elements](05-Hashing/01a-Top-K-Frequent-Elements) |
 | 1b | [Unique Number of Occurrences](05-Hashing/01b-Unique-Number-of-Occurrences) |
-| 2 | [Frequency of the Most Frequent Element](05-Hashing/02-Frequency-of-the-Most-Frequent-Element) |
+| 2 | [Counting Frequencies of Array Elements](05-Hashing/02-Counting-Frequencies-of-Array-Elements) |
+| 3 | [Frequency of the Most Frequent Element](05-Hashing/03-Frequency-of-the-Most-Frequent-Element) |
 
 ---
 
@@ -85,10 +86,15 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 | 16 | [Sort Colors](07-Arrays/16-Sort-Colors) |
 | 17 | [Majority Element](07-Arrays/17-Majority-Element) |
 | 18 | [Maximum Subarray](07-Arrays/18-Maximum-Subarray) |
+| 20 | [Best Time to Buy and Sell Stock](07-Arrays/20-Best-Time-to-Buy-and-Sell-Stock) |
 | 21 | [Rearrange Array Elements by Sign](07-Arrays/21-Rearrange-Array-Elements-by-Sign) |
+| 22 | [Next Permutation](07-Arrays/22-Next-Permutation) |
+| 23 | [Leaders in an Array](07-Arrays/23-Leaders-in-an-Array) |
+| 24 | [Longest Consecutive Sequence](07-Arrays/24-Longest-Consecutive-Sequence) |
 | 25 | [Set Matrix Zeroes](07-Arrays/25-Set-Matrix-Zeroes) |
 | 26 | [Rotate Image](07-Arrays/26-Rotate-Image) |
-| 28 | [Subarrat Sum Equals k](07-Arrays/28-Subarrat-Sum-Equals-k) |
+| 27 | [Spiral Matrix](07-Arrays/27-Spiral-Matrix) |
+| 28 | [Subarray Sum Equals K](07-Arrays/28-Subarray-Sum-Equals-k) |
 
 ---
 
@@ -100,9 +106,14 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 | 2 | [Implement Lower Bound](08-Binary-Search/02-Implement-Lower-Bound) |
 | 3 | [Implement Upper Bound](08-Binary-Search/03-Implement-Upper-Bound) |
 | 4 | [Search Insert Position](08-Binary-Search/04-Search-Insert-Position) |
+| 5 | [Floor and Ceil in Sorted Array](08-Binary-Search/05-Floor-and-Ceil-in-Sorted-Array) |
 | 6 | [Find First and Last Position of Element in Sorted Array](08-Binary-Search/06-Find-First-and-Last-Position-of-Element-in-Sorted-Array) |
+| 7 | [Count Occurrences in a Sorted Array](08-Binary-Search/07-Count-Occurrences-in-a-Sorted-Array) |
 | 8 | [Search in Rotated Sorted Array](08-Binary-Search/08-Search-in-Rotated-Sorted-Array) |
+| 9 | [Search in Rotated Sorted Array II](08-Binary-Search/09-Search-in-Rotated-Sorted-Array-II) |
 | 10 | [Find Minimum in Rotated Sorted Array](08-Binary-Search/10-Find-Minimum-in-Rotated-Sorted-Array) |
+| 11 | [Find Out How Many Times the Array Is Rotated](08-Binary-Search/11-Find-out-how-many-times-the-array-is-rotated) |
+| 12 | [Single Element in a Sorted Array](08-Binary-Search/12-Single-Element-in-a-Sorted-Array) |
 | 13 | [Find Peak Element](08-Binary-Search/13-Find-Peak-Element) |
 
 ---
@@ -111,10 +122,16 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 
 | # | Topic |
 |---|-------|
+| 1 | [Remove Outermost Parentheses](09-Strings/01-Remove-Outermost-Parentheses) |
 | 2 | [Reverse Words in a String](09-Strings/02-Reverse-Words-in-a-String) |
+| 3 | [Largest Odd Number in String](09-Strings/03-Largest-Odd-Number-in-String) |
 | 4 | [Longest Common Prefix](09-Strings/04-Longest-Common-Prefix) |
 | 5 | [Isomorphic Strings](09-Strings/05-Isomorphic-Strings) |
+| 6 | [Rotate String](09-Strings/06-Rotate-String) |
 | 7 | [Valid Anagram](09-Strings/07-Valid-Anagram) |
+| 8 | [Sort Characters By Frequency](09-Strings/08-Sort-Characters-By-Frequency) |
+| 9 | [Maximum Nesting Depth of the Parentheses](09-Strings/09-Maximum-Nesting-Depth-of-the-Parentheses) |
 | 10 | [Roman to Integer](09-Strings/10-Roman-to-Integer) |
 | 11 | [String to Integer (atoi)](09-Strings/11-String-to-Integer-(atoi)) |
 | 13 | [Longest Palindromic Substring](09-Strings/13-Longest-Palindromic-Substring) |
+| 14 | [Sum of Beauty of All Substrings](09-Strings/14-Sum-of-Beauty-of-All-Substrings) |

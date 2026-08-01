@@ -16,16 +16,6 @@ After the 1st level partitioning the array will be `{2, 1, 3, 4, 5}` as 3 was th
 
 After the 2nd level partitioning the array will be `{1, 2, 3, 4, 5}` as 1 was the pivot for the left part and 5 was the pivot for the right part. Now our array is sorted and there is no need to divide it again.
 
-## Constraints
-
-- `1 <= T <= 10`
-- `1 <= N <= 10^3`
-- `-10^9 <= ARR[i] <= 10^9`
-
-Where `T` is the number of test cases, `N` is the length of the array `ARR`, and `ARR[i]` is the array element at index `i`.
-
-**Time limit:** 1 sec.
-
 ## Sample Input 1
 
 ```text
@@ -43,7 +33,7 @@ Where `T` is the number of test cases, `N` is the length of the array `ARR`, and
 1 2 4 6
 ```
 
-## Explanation of Input 1
+## Explanation of Sample Input 1
 
 **Test case 1:**
 
@@ -73,3 +63,11 @@ Sorted array = `[1, 2, 4, 6]`
 2 3 4 5 6
 1 2 3 4
 ```
+
+## Constraints
+
+- `1 <= T <= 10`
+- `1 <= N <= 10^3`
+- `-10^9 <= ARR[i] <= 10^9`
+- Where `T` is the number of test cases, `N` is the length of the array `ARR`, and `ARR[i]` is the array element at index `i`.
+- Time limit: 1 sec

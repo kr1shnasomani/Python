@@ -4,10 +4,6 @@ Write a program to check whether the given number `N` is prime or not.
 
 For a given number `N`, check if it is prime or not. A prime number is a number that is only divisible by 1 and itself.
 
-## Constraints
-
-- 0 <= `N` <= 10,000
-
 ## Sample Input 1
 
 ```text
@@ -32,6 +28,10 @@ true
 false
 ```
 
-## Explanation of Input 2
+## Explanation of Sample Input 2
 
 10 has 2 factors: 2, 5.
+
+## Constraints
+
+- `0 <= N <= 10,000`

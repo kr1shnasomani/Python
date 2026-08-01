@@ -6,11 +6,11 @@ Return the number of digits in `n`.
 
 ## Example
 
-**Input:** `n` = 123
+**Input:** `n = 123`
 
-**Output:** 3
+**Output:** `3`
 
-**Explanation:**  
+**Explanation:**
 The 3 digits in `123` are 1, 2 and 3.
 
 ## Sample Input 1
@@ -25,7 +25,7 @@ The 3 digits in `123` are 1, 2 and 3.
 3
 ```
 
-## Explanation of Sample Output 1
+## Explanation of Sample Input 1
 
 There are 3 digits in 121 are 1, 2 and 1.
 
@@ -47,4 +47,4 @@ The expected time complexity is `O(log n)`.
 
 ## Constraints
 
-- 1 <= `n` <= 10^9
+- `1 <= n <= 10^9`

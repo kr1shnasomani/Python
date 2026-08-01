@@ -4,11 +4,9 @@ You are given an array `arr` sorted in non-decreasing order and a number `x`.
 
 You must return the index of the lower bound of `x`.
 
-**Note:**
-
-1. For a sorted array `arr`, the lower bound of a number `x` is defined as the smallest index `idx` such that the value `arr[idx]` is not less than `x`. If all numbers are smaller than `x`, then `n` should be the lower bound of `x`, where `n` is the size of the array.
-
-2. Try to do this in `O(log(n))`.
+> **Note:**
+> 1. For a sorted array `arr`, the lower bound of a number `x` is defined as the smallest index `idx` such that the value `arr[idx]` is not less than `x`. If all numbers are smaller than `x`, then `n` should be the lower bound of `x`, where `n` is the size of the array.
+> 2. Try to do this in `O(log(n))`.
 
 ## Example
 
@@ -16,14 +14,8 @@ You must return the index of the lower bound of `x`.
 
 **Output:** `0`
 
-**Explanation:**  
+**Explanation:**
 Index `0` is the smallest index such that `arr[0]` is not less than `x`.
-
-## Constraints
-
-- `1 <= n <= 10^5`
-- `0 <= arr[i] <= 10^5`
-- `1 <= x <= 10^5`
 
 ## Sample Input 1
 
@@ -39,7 +31,7 @@ Index `0` is the smallest index such that `arr[0]` is not less than `x`.
 0
 ```
 
-## Explanation Of Sample Input 1
+## Explanation of Sample Input 1
 
 Index `0` is the smallest index such that `arr[0]` is not less than `x`.
 
@@ -70,3 +62,9 @@ Index `0` is the smallest index such that `arr[0]` is not less than `x`.
 ```text
 6
 ```
+
+## Constraints
+
+- `1 <= n <= 10^5`
+- `0 <= arr[i] <= 10^5`
+- `1 <= x <= 10^5`

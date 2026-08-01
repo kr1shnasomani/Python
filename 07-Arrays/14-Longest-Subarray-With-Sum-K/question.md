@@ -36,7 +36,7 @@ Here, the length of the longest subarray is `3`, which is our final answer.
 3
 ```
 
-## Explanation Of Sample Input 1
+## Explanation of Sample Input 1
 
 Subarrays whose sum = `3` are:
 
@@ -79,5 +79,4 @@ The expected time complexity is `O(n)`.
 - `1 <= n <= 5 * 10^6`
 - `1 <= k <= 10^18`
 - `0 <= a[i] <= 10^9`
-
-**Time Limit:** 1-second
+- Time limit: 1 second

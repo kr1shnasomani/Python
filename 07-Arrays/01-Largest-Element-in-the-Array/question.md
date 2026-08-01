@@ -2,7 +2,7 @@ https://www.naukri.com/code360/problems/largest-element-in-the-array-largest-ele
 
 Given an array `arr` of size `n`, find the largest element in the array.
 
-### Example:
+## Example
 
 **Input:** `n = 5`, `arr = [1, 2, 3, 4, 5]`
 
@@ -10,45 +10,44 @@ Given an array `arr` of size `n`, find the largest element in the array.
 
 **Explanation:** From the array `{1, 2, 3, 4, 5}`, the largest element is `5`.
 
-### Sample Input 1:
+## Sample Input 1
 
 ```text
 6
 4 7 8 6 7 6
 ```
 
-### Sample Output 1:
+## Sample Output 1
 
 ```text
 8
 ```
 
-### Explanation of sample input 1:
+## Explanation of Sample Input 1
 
 The answer is `8`.
 
 From `{4 7 8 6 7 6}`, `8` is the largest element.
 
-### Sample Input 2:
+## Sample Input 2
 
 ```text
 8
 5 9 3 4 8 4 3 10
 ```
 
-### Sample Output 2:
+## Sample Output 2
 
 ```text
 10
 ```
 
-### Expected Time Complexity:
+## Expected Time Complexity
 
-`O(n)`, Where `n` is the size of an input array `arr`.
+`O(n)`, where `n` is the size of an input array `arr`.
 
-### Constraints:
+## Constraints
 
-* `1 <= 'n' <= 10^5`
-* `1 <= 'arr[i]' <= 10^9`
-
-**Time Limit:** 1 sec
+- `1 <= n <= 10^5`
+- `1 <= arr[i] <= 10^9`
+- Time limit: 1 sec

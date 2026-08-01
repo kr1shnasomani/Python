@@ -2,7 +2,7 @@ https://www.naukri.com/code360/problems/find-all-divisors-of-a-number_1164188
 
 Given an integer `N`, your task is to write a program that returns all the divisors of `N` in ascending order.
 
-## For example
+## Example
 
 `N` = 5.
 
@@ -42,4 +42,4 @@ The divisors of 6 are 1, 2, 3, and 6.
 
 ## Constraints
 
-- 1 <= `N` <= 10^5
+- `1 <= N <= 10^5`

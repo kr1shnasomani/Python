@@ -10,13 +10,6 @@ A k-digit number `NUM` is an Armstrong number if and only if the k-th power of e
 
 Therefore 153 is an Armstrong number.
 
-## Constraints
-
-- 1 <= `T` <= 100
-- 1 <= `N` <= 10^9
-
-**Time Limit:** 1 sec
-
 ## Sample Input 1
 
 ```text
@@ -30,7 +23,7 @@ Therefore 153 is an Armstrong number.
 NO
 ```
 
-## Explanation For Sample Input 1
+## Explanation of Sample Input 1
 
 As 1^2 + 3^2 = 10 which is not equal to 13. So we can say it is not an Armstrong number.
 
@@ -46,3 +39,9 @@ As 1^2 + 3^2 = 10 which is not equal to 13. So we can say it is not an Armstrong
 ```text
 YES
 ```
+
+## Constraints
+
+- `1 <= T <= 100`
+- `1 <= N <= 10^9`
+- Time limit: 1 sec

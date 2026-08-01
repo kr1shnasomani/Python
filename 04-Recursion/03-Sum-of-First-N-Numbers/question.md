@@ -1,66 +1,58 @@
 https://www.naukri.com/code360/problems/sum-of-first-n-numbers_8876068
 
-You are given an integer ‘n’.
+You are given an integer `n`.
 
-Your task is determining the sum of the first ‘n’ natural numbers and returning it.
+Your task is determining the sum of the first `n` natural numbers and returning it.
 
-### Example:
+## Example
 
-**Input:** ‘n’ = 3
+**Input:** `n = 3`
 
-**Output:** 6
+**Output:** `6`
 
 **Explanation:** The sum of the first 3 natural numbers is 1 + 2 + 3, equal to 6.
 
-### Sample Input 1:
+## Sample Input 1
 
 ```text
 3
 ```
 
-### Sample Output 1:
+## Sample Output 1
 
 ```text
 6
 ```
 
-### Explanation Of Sample Input 1:
+## Explanation of Sample Input 1
 
-**Input:** ‘n’ = 3
+The sum of the first 3 natural numbers is 1 + 2 + 3, equal to 6.
 
-**Output:** 6
-
-**Explanation:** The sum of the first 3 natural numbers is 1 + 2 + 3, equal to 6.
-
-### Sample Input 2:
+## Sample Input 2
 
 ```text
 5
 ```
 
-### Sample Output 2:
+## Sample Output 2
 
 ```text
 15
 ```
 
-### Explanation of sample output 2:
+## Explanation of Sample Input 2
 
-**Input:** ‘n’ = 5
+The sum of the first 5 natural numbers is 1 + 2 + 3 + 4 + 5, equal to 15.
 
-**Output:** 15
+## Expected Time Complexity
 
-**Explanation:** The sum of the first 5 natural numbers is 1 + 2 + 3 + 4 + 5, equal to 15.
+The expected time complexity is `O(1)`.
 
-### Expected Time Complexity:
+## Expected Space Complexity
 
-The expected time complexity is **O(1)**.
+The expected space complexity is `O(1)`.
 
-### Expected Space Complexity:
-
-The expected space complexity is **O(1)**.
-
-### Constraints:
+## Constraints
 
 - `1 <= n <= 10^9`
-- Time Limit: **1 sec**
+- Time limit: 1 sec
