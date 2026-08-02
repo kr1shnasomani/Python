@@ -100,5 +100,5 @@ arr = [4, 3, 2, 1]
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n²)` – For every position, we search the remaining array to find the minimum.
-- **Space Complexity:** `O(1)` – Sorting is done in-place without using extra space.
+- **Time Complexity:** `O(n²)` - For every position, we search the remaining array to find the minimum.
+- **Space Complexity:** `O(1)` - Sorting is done in-place without using extra space.

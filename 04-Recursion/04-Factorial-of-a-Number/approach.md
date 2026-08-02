@@ -51,4 +51,4 @@ factorial(3)
 ## Complexity Analysis
 
 - **Time Complexity:** `O(n)`
-- **Space Complexity:** `O(n)` (recursive call stack)
+- **Space Complexity:** `O(n)` - Recursive call stack.

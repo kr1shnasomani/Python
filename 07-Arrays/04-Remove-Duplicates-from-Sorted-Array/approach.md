@@ -92,5 +92,5 @@ The first `5` elements are:
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – We traverse the array only once using two pointers.
-- **Space Complexity:** `O(1)` – We modify the array in-place without using any extra space.
+- **Time Complexity:** `O(n)` - We traverse the array only once using two pointers.
+- **Space Complexity:** `O(1)` - We modify the array in-place without using any extra space.

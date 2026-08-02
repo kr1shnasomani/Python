@@ -74,5 +74,5 @@ nums[k:] = reversed(nums[k:])
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)`. We reverse the array three times, and each reversal takes linear time.
-- **Space Complexity:** `O(1)`. The rotation is performed in-place without using any extra array.
+- **Time Complexity:** `O(n)` - We reverse the array three times, and each reversal takes linear time.
+- **Space Complexity:** `O(1)` - The rotation is performed in-place without using any extra array.

@@ -104,5 +104,5 @@ fib(4)
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(2ⁿ)` (the same Fibonacci numbers are calculated repeatedly)
-- **Space Complexity:** `O(n)` (recursive call stack)
+- **Time Complexity:** `O(2ⁿ)` - The same Fibonacci numbers are calculated repeatedly.
+- **Space Complexity:** `O(n)` - Recursive call stack.

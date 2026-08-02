@@ -96,5 +96,5 @@ arr = [4, 3, 2, 1]
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n²)` – In the worst case, every pass compares adjacent elements throughout the unsorted part of the array.
-- **Space Complexity:** `O(1)` – Sorting is performed in-place without using extra space.
+- **Time Complexity:** `O(n²)` - In the worst case, every pass compares adjacent elements throughout the unsorted part of the array.
+- **Space Complexity:** `O(1)` - Sorting is performed in-place without using extra space.

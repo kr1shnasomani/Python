@@ -113,5 +113,5 @@ Answer = 2
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – We traverse the array only once.
-- **Space Complexity:** `O(1)` – Only two extra variables (`element` and `count`) are used.
+- **Time Complexity:** `O(n)` - We traverse the array only once.
+- **Space Complexity:** `O(1)` - Only two extra variables (`element` and `count`) are used.

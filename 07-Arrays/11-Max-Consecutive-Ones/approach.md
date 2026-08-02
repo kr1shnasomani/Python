@@ -59,5 +59,5 @@ else:
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – We traverse the array only once.
-- **Space Complexity:** `O(1)` – Only two extra variables (`count` and `max_count`) are used.
+- **Time Complexity:** `O(n)` - We traverse the array only once.
+- **Space Complexity:** `O(1)` - Only two extra variables (`count` and `max_count`) are used.

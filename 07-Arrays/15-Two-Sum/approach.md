@@ -76,5 +76,5 @@ Return:
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n²)` – In the worst case, every pair of elements is checked.
-- **Space Complexity:** `O(1)` – No extra data structure is used.
+- **Time Complexity:** `O(n²)` - In the worst case, every pair of elements is checked.
+- **Space Complexity:** `O(1)` - No extra data structure is used.

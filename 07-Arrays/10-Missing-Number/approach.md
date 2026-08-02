@@ -103,5 +103,5 @@ Actual sum:
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – Calculating the sum of the array takes one traversal.
-- **Space Complexity:** `O(1)` – Only two extra variables (`expected` and `actual`) are used.
+- **Time Complexity:** `O(n)` - Calculating the sum of the array takes one traversal.
+- **Space Complexity:** `O(1)` - Only two extra variables (`expected` and `actual`) are used.

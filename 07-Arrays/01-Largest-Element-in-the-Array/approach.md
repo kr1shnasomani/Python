@@ -74,5 +74,5 @@ arr = [5, 9, 3, 4, 8, 4, 3, 10]
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – We traverse the array only once.
-- **Space Complexity:** `O(1)` – Only one extra variable (`largest`) is used.
+- **Time Complexity:** `O(n)` - We traverse the array only once.
+- **Space Complexity:** `O(1)` - Only one extra variable (`largest`) is used.

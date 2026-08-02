@@ -118,5 +118,5 @@ arr = [8, 1, 3, 2]
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` (each element is swapped at most once)
-- **Space Complexity:** `O(n)` (recursive call stack)
+- **Time Complexity:** `O(n)` - Each element is swapped at most once.
+- **Space Complexity:** `O(n)` - Recursive call stack.

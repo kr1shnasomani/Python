@@ -103,5 +103,5 @@ arr = [4, 3, 2, 1]
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n²)` – In the worst case (reverse sorted array), each element may need to be compared with and shifted past all previously sorted elements.
-- **Space Complexity:** `O(1)` – Sorting is done in-place without using any extra array.
+- **Time Complexity:** `O(n²)` - In the worst case (reverse sorted array), each element may need to be compared with and shifted past all previously sorted elements.
+- **Space Complexity:** `O(1)` - Sorting is done in-place without using any extra array.

@@ -22,6 +22,6 @@ class Solution:
         return True
 
 # if __name__ == "__main__":
-#     s = input("Enter the first string: ")
-#     t = input("Enter the second string: ")
+#     s = str(input("Enter the first string: "))
+#     t = str(input("Enter the second string: "))
 #     print(Solution().isAnagram(s, t))

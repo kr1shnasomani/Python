@@ -80,5 +80,5 @@ if nums[i] > nums[(i + 1) % n]:
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – We traverse the array only once.
-- **Space Complexity:** `O(1)` – Only one extra variable (`count`) is used.
+- **Time Complexity:** `O(n)` - We traverse the array only once.
+- **Space Complexity:** `O(1)` - Only one extra variable (`count`) is used.

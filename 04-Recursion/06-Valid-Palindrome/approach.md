@@ -308,5 +308,5 @@ True
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` (each character is visited at most once)
-- **Space Complexity:** `O(n)` (recursive call stack)
+- **Time Complexity:** `O(n)` - Each character is visited at most once.
+- **Space Complexity:** `O(n)` - Recursive call stack.

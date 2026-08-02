@@ -86,5 +86,5 @@ The array has only one element, so the loop never runs.
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)`. We scan the array once, doing constant work at each step.
-- **Space Complexity:** `O(1)`. Only two extra variables (`current_sum`, `max_sum`) are used.
+- **Time Complexity:** `O(n)` - We scan the array once, doing constant work at each step.
+- **Space Complexity:** `O(1)` - Only two extra variables (`current_sum`, `max_sum`) are used.

@@ -10,10 +10,11 @@ class Solution:
             "M": 1000
         }
 
+        n = len(s)
         total = 0
 
-        for i in range(len(s)):
-            if i < len(s) - 1 and roman[s[i]] < roman[s[i + 1]]:
+        for i in range(n):
+            if i < n - 1 and roman[s[i]] < roman[s[i + 1]]:
                 total = total - roman[s[i]]
             else:
                 total = total + roman[s[i]]
@@ -21,5 +22,5 @@ class Solution:
         return total
 
 # if __name__ == "__main__":
-#     s = input("Enter the roman numeral: ")
+#     s = str(input("Enter the roman numeral: "))
 #     print(Solution().romanToInt(s))

@@ -112,5 +112,5 @@ Loop check: `left(2) <= right(1)` is false, so the loop stops.
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(m * n)`, because every element of the matrix is visited exactly once.
-- **Space Complexity:** `O(1)` extra space, not counting the output list, since only the four boundary variables are used.
+- **Time Complexity:** `O(m * n)` - Because every element of the matrix is visited exactly once.
+- **Space Complexity:** `O(1)` - Extra space, not counting the output list, since only the four boundary variables are used.

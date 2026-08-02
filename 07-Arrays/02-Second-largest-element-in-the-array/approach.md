@@ -95,5 +95,5 @@ elif num > slargest and num != largest:
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – We traverse the array only once.
-- **Space Complexity:** `O(1)` – Only two extra variables (`largest` and `slargest`) are used.
+- **Time Complexity:** `O(n)` - We traverse the array only once.
+- **Space Complexity:** `O(1)` - Only two extra variables (`largest` and `slargest`) are used.

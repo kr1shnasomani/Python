@@ -67,5 +67,5 @@ if arr[i] == num:
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – In the worst case, we may have to check every element once.
-- **Space Complexity:** `O(1)` – No extra space is used apart from a few variables.
+- **Time Complexity:** `O(n)` - In the worst case, we may have to check every element once.
+- **Space Complexity:** `O(1)` - No extra space is used apart from a few variables.

@@ -52,5 +52,5 @@ if nums[i] != 0:
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)` – We traverse the array only once.
-- **Space Complexity:** `O(1)` – The array is modified in-place using only one extra pointer (`j`).
+- **Time Complexity:** `O(n)` - We traverse the array only once.
+- **Space Complexity:** `O(1)` - The array is modified in-place using only one extra pointer (`j`).

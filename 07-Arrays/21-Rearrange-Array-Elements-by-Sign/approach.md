@@ -57,5 +57,5 @@ else:
 
 ## Complexity Analysis
 
-- **Time Complexity:** `O(n)`. We go through `nums` only once.
-- **Space Complexity:** `O(n)`. We build a new array `ans` that is the same size as `nums`.
+- **Time Complexity:** `O(n)` - We go through `nums` only once.
+- **Space Complexity:** `O(n)` - We build a new array `ans` that is the same size as `nums`.
