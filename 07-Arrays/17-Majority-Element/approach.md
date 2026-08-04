@@ -23,6 +23,8 @@ else:
 
 ## Key Concept: Boyer-Moore Voting Algorithm
 
+This is a **greedy algorithm**: at every index, it makes the best decision it can with only the information seen so far (either strengthen the current candidate or cancel it out), and never looks back to reconsider earlier choices. Greedy algorithms don't always land on the correct answer for every problem, but they work here because the majority element can never be fully cancelled out, so the locally best choice at each step never conflicts with the final answer.
+
 Think of each different pair of numbers as cancelling each other.
 
 For example:
