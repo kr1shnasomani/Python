@@ -26,7 +26,7 @@ class Solution:
 
         return matrix
 
-# if __name__ == "__main__":
-#     import ast
-#     matrix = ast.literal_eval(input("Enter the matrix: "))
-#     print(Solution().setZeroes(matrix))
+if __name__ == "__main__":
+    n = int(input("Enter number of rows: "))
+    matrix = [list(map(int, input().split())) for _ in range(n)]
+    print(Solution().setZeroes(matrix))

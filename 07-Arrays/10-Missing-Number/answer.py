@@ -9,6 +9,6 @@ class Solution:
 
         return expected - actual
 
-# if __name__ == "__main__":
-#     nums = list(map(int, input("Enter the array: ").split()))
-#     print(Solution().missingNumber(nums))
+if __name__ == "__main__":
+    nums = list(map(int, input("Enter the array: ").split()))
+    print(Solution().missingNumber(nums))

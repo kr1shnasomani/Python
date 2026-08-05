@@ -6,6 +6,6 @@ def printNos(x):
     result.append(x)
     return result
 
-# if __name__ == "__main__":
-#     x = int(input())
-#     print(printNos(x))
+if __name__ == "__main__":
+    x = int(input())
+    print(printNos(x))

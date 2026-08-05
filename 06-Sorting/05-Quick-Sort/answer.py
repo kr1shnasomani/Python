@@ -5,13 +5,9 @@ def partition(arr, low, high):
     for j in range(low, high):
         if arr[j] < pivot:
             i += 1
-            temp = arr[i]
-            arr[i] = arr[j]
-            arr[j] = temp
+            arr[i], arr[j] = arr[j], arr[i]
 
-    temp = arr[i + 1]
-    arr[i + 1] = arr[high]
-    arr[high] = temp
+    arr[i + 1], arr[high] = arr[high], arr[i + 1]
 
     return i + 1
 
@@ -27,6 +23,6 @@ def quickSort(arr):
     quick_sort(arr, 0, len(arr) - 1)
     return arr
 
-# if __name__ == "__main__":
-#     arr = list(map(int, input("Enter the array: ").split()))
-#     print(quickSort(arr))
+if __name__ == "__main__":
+    arr = list(map(int, input("Enter the array: ").split()))
+    print(quickSort(arr))

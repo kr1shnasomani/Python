@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         n = len(nums)
@@ -20,7 +19,7 @@ class Solution:
 
         return ans
 
-# if __name__ == "__main__":
-#     nums = list(map(int, input("Enter the sorted array: ").split()))
-#     target = int(input("Enter the target: "))
-#     print(Solution().searchInsert(nums, target))
+if __name__ == "__main__":
+    nums = list(map(int, input("Enter the sorted array: ").split()))
+    target = int(input("Enter the target: "))
+    print(Solution().searchInsert(nums, target))

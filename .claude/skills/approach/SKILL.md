@@ -34,13 +34,15 @@ if nums[i] != 0:
 ```
 The loop and `j = 0` are explained in prose ("`i` scans every element, `j` tracks where the next non-zero goes") — not repeated in code.
 
-## Key Concept (Only if New)
+## Key Concept
+- Write the heading as plain `## Key Concept` in the output — never append "(Only if New)" or similar to it.
 - Include this section, right after Main Logic, whenever the optimal solution leans on a named technique or property the reader likely hasn't seen in an earlier solved problem yet — e.g. XOR properties, the two-pointer pattern, the reversal algorithm, prefix sums, Kadane's rule, Boyer-Moore voting, the Euclidean algorithm, sqrt-based divisor pairing, sliding window invariants, bit manipulation tricks.
 - Explain the rule/property itself (truth table, short list of properties, or a 2-3 line intuition), separate from how this specific problem uses it — Main Logic already covers the application.
 - Skip this section if the technique was already introduced in an earlier problem in the same section, or if it's basic enough not to need a name (plain loops, simple conditionals, basic recursion).
 - Before adding this section, check whether it's really a distinct named technique, or just a small variation on one already covered (e.g. "two pointers that each move by 2" is still just the two-pointer pattern, not a new concept). Only add it if it wouldn't already be explained by an earlier Key Concept section.
 
-## Flow (Only if Needed)
+## Flow
+- Write the heading as plain `## Flow` in the output — never append "(Only if Needed)" or similar to it.
 - Include this section **only if it adds value** beyond the dry run (e.g., recursion tree, recursion expansion, DFS/BFS flow, binary search pointer movement, backtracking choices, etc.).
 - If it would simply repeat the dry run, omit it.
 

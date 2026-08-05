@@ -11,7 +11,7 @@ def insertionSort(arr, n):
 
     return arr
 
-# if __name__ == "__main__":
-#     arr = list(map(int, input("Enter the array: ").split()))
-#     n = len(arr)
-#     print(insertionSort(arr, n))
+if __name__ == "__main__":
+    arr = list(map(int, input("Enter the array: ").split()))
+    n = len(arr)
+    print(insertionSort(arr, n))

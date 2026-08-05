@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         n = len(nums)
@@ -11,10 +10,7 @@ class Solution:
 
         while mid <= high:
             if nums[mid] == 0:
-                temp = nums[low]
-                nums[low] = nums[mid]
-                nums[mid] = temp
-
+                nums[low], nums[mid] = nums[mid], nums[low]
                 low += 1
                 mid += 1
 
@@ -22,14 +18,11 @@ class Solution:
                 mid += 1
 
             else:
-                temp = nums[mid]
-                nums[mid] = nums[high]
-                nums[high] = temp
-
+                nums[mid], nums[high] = nums[high], nums[mid]
                 high -= 1
 
         return nums
 
-# if __name__ == "__main__":
-#     nums = list(map(int, input("Enter the array (0s, 1s, 2s): ").split()))
-#     print(Solution().sortColors(nums))
+if __name__ == "__main__":
+    nums = list(map(int, input("Enter the array: ").split()))
+    print(Solution().sortColors(nums))

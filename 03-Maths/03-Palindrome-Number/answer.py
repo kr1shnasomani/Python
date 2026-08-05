@@ -12,6 +12,6 @@ class Solution:
 
         return rev == original
 
-# if __name__ == "__main__":
-#     x = int(input("Enter a number: "))
-#     print(Solution().isPalindrome(x))
+if __name__ == "__main__":
+    x = int(input("Enter a number: "))
+    print(Solution().isPalindrome(x))

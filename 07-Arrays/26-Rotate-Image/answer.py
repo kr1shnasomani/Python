@@ -6,25 +6,21 @@ class Solution:
 
         for i in range(n):
             for j in range(i + 1, n):
-                temp = matrix[i][j]
-                matrix[i][j] = matrix[j][i]
-                matrix[j][i] = temp
+                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 
         for i in range(n):
             left = 0
             right = n - 1
 
             while left < right:
-                temp = matrix[i][left]
-                matrix[i][left] = matrix[i][right]
-                matrix[i][right] = temp
+                matrix[i][left], matrix[i][right] = matrix[i][right], matrix[i][left]
 
                 left += 1
                 right -= 1
 
         return matrix
 
-# if __name__ == "__main__":
-#     import ast
-#     matrix = ast.literal_eval(input("Enter the matrix: "))
-#     print(Solution().rotate(matrix))
+if __name__ == "__main__":
+    n = int(input("Enter number of rows: "))
+    matrix = [list(map(int, input().split())) for _ in range(n)]
+    print(Solution().rotate(matrix))

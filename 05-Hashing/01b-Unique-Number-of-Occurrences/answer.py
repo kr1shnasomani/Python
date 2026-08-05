@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         count = {}
@@ -15,6 +14,6 @@ class Solution:
 
         return len(occur) == len(set(occur))
 
-# if __name__ == "__main__":
-#     arr = list(map(int, input("Enter the array: ").split()))
-#     print(Solution().uniqueOccurrences(arr))
+if __name__ == "__main__":
+    arr = list(map(int, input("Enter the array: ").split()))
+    print(Solution().uniqueOccurrences(arr))

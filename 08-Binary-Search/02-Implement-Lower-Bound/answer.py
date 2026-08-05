@@ -1,4 +1,4 @@
-def lowerBound(arr: [int], n: int, x: int) -> int:
+def lowerBound(arr: list[int], n: int, x: int) -> int:
     low = 0
     high = n - 1
     ans = n
@@ -14,8 +14,8 @@ def lowerBound(arr: [int], n: int, x: int) -> int:
 
     return ans
 
-# if __name__ == "__main__":
-#     arr = list(map(int, input("Enter the sorted array: ").split()))
-#     n = len(arr)
-#     x = int(input("Enter x: "))
-#     print(lowerBound(arr, n, x))
+if __name__ == "__main__":
+    arr = list(map(int, input("Enter the sorted array: ").split()))
+    n = len(arr)
+    x = int(input("Enter x: "))
+    print(lowerBound(arr, n, x))

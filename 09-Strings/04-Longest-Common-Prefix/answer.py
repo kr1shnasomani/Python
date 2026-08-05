@@ -20,6 +20,6 @@ class Solution:
 
         return prefix
 
-# if __name__ == "__main__":
-#     strs = list(map(str, input("Enter the strings: ").split()))
-#     print(Solution().longestCommonPrefix(strs))
+if __name__ == "__main__":
+    strs = list(map(str, input("Enter the strings: ").split()))
+    print(Solution().longestCommonPrefix(strs))

@@ -1,4 +1,4 @@
-def sortedArray(a: [int], b: [int]) -> [int]:
+def sortedArray(a: list[int], b: list[int]) -> list[int]:
     n = len(a)
     m = len(b)
 
@@ -36,7 +36,7 @@ def sortedArray(a: [int], b: [int]) -> [int]:
 
     return union
 
-# if __name__ == "__main__":
-#     a = list(map(int, input("Enter the first sorted array: ").split()))
-#     b = list(map(int, input("Enter the second sorted array: ").split()))
-#     print(sortedArray(a, b))
+if __name__ == "__main__":
+    a = list(map(int, input("Enter the first sorted array: ").split()))
+    b = list(map(int, input("Enter the second sorted array: ").split()))
+    print(sortedArray(a, b))

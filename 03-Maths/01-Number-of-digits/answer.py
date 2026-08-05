@@ -7,6 +7,6 @@ def countDigits(n: int) -> int:
         n //= 10
     return count
 
-# if __name__ == '__main__':
-#     n = int(input("Enter a number: "))
-#     print(countDigits(n))
+if __name__ == '__main__':
+    n = int(input("Enter a number: "))
+    print(countDigits(n))

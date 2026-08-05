@@ -1,4 +1,4 @@
-def longestSubarrayWithSumK(a: [int], k: int) -> int:
+def longestSubarrayWithSumK(a: list[int], k: int) -> int:
     prefix_sum = 0
     max_length = 0
     prefix_map = {}
@@ -21,7 +21,7 @@ def longestSubarrayWithSumK(a: [int], k: int) -> int:
 
     return max_length
 
-# if __name__ == "__main__":
-#     a = list(map(int, input("Enter the array: ").split()))
-#     k = int(input("Enter k: "))
-#     print(longestSubarrayWithSumK(a, k))
+if __name__ == "__main__":
+    a = list(map(int, input("Enter the array: ").split()))
+    k = int(input("Enter k: "))
+    print(longestSubarrayWithSumK(a, k))

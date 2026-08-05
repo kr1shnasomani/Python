@@ -5,7 +5,7 @@ class Solution:
 
         return goal in (s+s)
 
-# if __name__ == "__main__":
-#     s = str(input("Enter the first string: "))
-#     goal = str(input("Enter the second string: "))
-#     print(Solution().rotateString(s, goal))
+if __name__ == "__main__":
+    s = str(input("Enter the first string: "))
+    goal = str(input("Enter the second string: "))
+    print(Solution().rotateString(s, goal))

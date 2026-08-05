@@ -14,8 +14,8 @@ def upperBound(arr: [int], x: int, n: int) -> int:
 
     return ans
 
-# if __name__ == "__main__":
-#     arr = list(map(int, input("Enter the sorted array: ").split()))
-#     x = int(input("Enter x: "))
-#     n = len(arr)
-#     print(upperBound(arr, x, n))
+if __name__ == "__main__":
+    arr = list(map(int, input("Enter the sorted array: ").split()))
+    x = int(input("Enter x: "))
+    n = len(arr)
+    print(upperBound(arr, x, n))

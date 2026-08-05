@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def maxFrequency(self, nums: List[int], k: int) -> int:
         nums.sort()
@@ -20,7 +19,7 @@ class Solution:
 
         return result
 
-# if __name__ == "__main__":
-#     nums = list(map(int, input("Enter the array: ").split()))
-#     k = int(input("Enter k: "))
-#     print(Solution().maxFrequency(nums, k))
+if __name__ == "__main__":
+    nums = list(map(int, input("Enter the array: ").split()))
+    k = int(input("Enter k: "))
+    print(Solution().maxFrequency(nums, k))

@@ -28,6 +28,6 @@ class Solution:
         # else:
         #     return -1
 
-# if __name__ == "__main__":
-#     nums = list(map(int, input("Enter the array: ").split()))
-#     print(Solution().majorityElement(nums))
+if __name__ == "__main__":
+    nums = list(map(int, input("Enter the array: ").split()))
+    print(Solution().majorityElement(nums))

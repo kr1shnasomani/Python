@@ -15,6 +15,6 @@ class Solution:
 
         return "".join(ans)
 
-# if __name__ == "__main__":
-#     s = str(input("Enter the string: "))
-#     print(Solution().removeOuterParentheses(s))
+if __name__ == "__main__":
+    s = str(input("Enter the string: "))
+    print(Solution().removeOuterParentheses(s))

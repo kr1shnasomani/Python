@@ -12,7 +12,7 @@ class Solution:
 
         return nums
 
-# if __name__ == "__main__":
-#     nums = list(map(int, input("Enter the array: ").split()))
-#     k = int(input("Enter k: "))
-#     print(Solution().rotate(nums, k))
+if __name__ == "__main__":
+    nums = list(map(int, input("Enter the array: ").split()))
+    k = int(input("Enter k: "))
+    print(Solution().rotate(nums, k))

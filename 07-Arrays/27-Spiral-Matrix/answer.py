@@ -33,7 +33,7 @@ class Solution:
 
         return ans
 
-# if __name__ == "__main__":
-#     rows, cols = map(int, input().split())
-#     matrix = [list(map(int, input().split())) for _ in range(rows)]
-#     print(Solution().spiralOrder(matrix))
+if __name__ == "__main__":
+    rows, cols = map(int, input().split())
+    matrix = [list(map(int, input().split())) for _ in range(rows)]
+    print(Solution().spiralOrder(matrix))

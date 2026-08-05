@@ -16,6 +16,6 @@ class Solution:
 
         return max_profit
 
-# if __name__ == "__main__":
-#     prices = list(map(int, input("Enter the stock prices: ").split()))
-#     print(Solution().maxProfit(prices))
+if __name__ == "__main__":
+    prices = list(map(int, input("Enter the stock prices: ").split()))
+    print(Solution().maxProfit(prices))
