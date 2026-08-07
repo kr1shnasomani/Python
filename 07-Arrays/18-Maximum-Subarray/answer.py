@@ -12,11 +12,10 @@ class Solution:
             else:
                 current_sum = current_sum + nums[i]
 
-            if current_sum > max_sum:
-                max_sum = current_sum
+            max_sum = max(max_sum, current_sum)
 
         return max_sum
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the array: ").split()))
-    print(Solution().maxSubArray(nums))
+    nums_input = list(map(int, input("Enter the array: ").split()))
+    print(Solution().maxSubArray(nums_input))

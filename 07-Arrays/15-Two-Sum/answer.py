@@ -9,7 +9,9 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
 
+        return []
+
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the array: ").split()))
-    target = int(input("Enter the target: "))
-    print(Solution().twoSum(nums, target))
+    nums_input = list(map(int, input("Enter the array: ").split()))
+    target_input = int(input("Enter the target: "))
+    print(Solution().twoSum(nums_input, target_input))

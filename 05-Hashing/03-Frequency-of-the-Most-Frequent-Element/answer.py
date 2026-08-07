@@ -20,6 +20,6 @@ class Solution:
         return result
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the array: ").split()))
-    k = int(input("Enter k: "))
-    print(Solution().maxFrequency(nums, k))
+    nums_input = list(map(int, input("Enter the array: ").split()))
+    k_input = int(input("Enter k: "))
+    print(Solution().maxFrequency(nums_input, k_input))

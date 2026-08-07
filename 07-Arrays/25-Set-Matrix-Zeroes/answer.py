@@ -28,5 +28,5 @@ class Solution:
 
 if __name__ == "__main__":
     n = int(input("Enter number of rows: "))
-    matrix = [list(map(int, input().split())) for _ in range(n)]
-    print(Solution().setZeroes(matrix))
+    matrix_input = [list(map(int, input().split())) for _ in range(n)]
+    print(Solution().setZeroes(matrix_input))

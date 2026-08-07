@@ -15,9 +15,7 @@ Both answer.py and approach.md blank (15 folders):
 - 09-Strings/13-Longest-Palindromic-Substring
 - 09-Strings/14-Sum-of-Beauty-of-All-Substrings
 
-Only approach.md blank, answer.py already solved (9 folders):
-- 05-Hashing/01a-Top-K-Frequent-Elements
-- 05-Hashing/01b-Unique-Number-of-Occurrences
+Only approach.md blank, answer.py already solved (7 folders):
 - 05-Hashing/03-Frequency-of-the-Most-Frequent-Element
 - 07-Arrays/14-Longest-Subarray-With-Sum-K
 - 07-Arrays/25-Set-Matrix-Zeroes
@@ -28,3 +26,11 @@ Only approach.md blank, answer.py already solved (9 folders):
 
 Only answer.py blank, approach.md already written (0 folders):
 - none, an approach.md never exists without a solved answer.py in this repo
+
+Note: avoid `zip`/`enumerate` in answer.py code (user is still a beginner, not comfortable with these yet).
+Reverted back to plain `range(len(...))` indexing in:
+- 05-Hashing/03-Frequency-of-the-Most-Frequent-Element
+- 07-Arrays/14-Longest-Subarray-With-Sum-K
+- 09-Strings/05-Isomorphic-Strings
+These were switched to `enumerate`/`zip` during a pylint cleanup pass, then reverted on request. Revisit later once comfortable with these, since pylint will flag `range(len(...))` again (C0200, consider-using-enumerate) if re-linted.
+

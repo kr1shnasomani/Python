@@ -20,6 +20,6 @@ class Solution:
         return ans
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the sorted array: ").split()))
-    target = int(input("Enter the target: "))
-    print(Solution().searchInsert(nums, target))
+    nums_input = list(map(int, input("Enter the sorted array: ").split()))
+    target_input = int(input("Enter the target: "))
+    print(Solution().searchInsert(nums_input, target_input))

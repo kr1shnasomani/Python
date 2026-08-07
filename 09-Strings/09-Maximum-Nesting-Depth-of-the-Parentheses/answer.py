@@ -13,5 +13,5 @@ class Solution:
         return max_depth
 
 if __name__ == "__main__":
-    s = str(input("Enter the string: "))
-    print(Solution().maxDepth(s))
+    s_input = str(input("Enter the string: "))
+    print(Solution().maxDepth(s_input))

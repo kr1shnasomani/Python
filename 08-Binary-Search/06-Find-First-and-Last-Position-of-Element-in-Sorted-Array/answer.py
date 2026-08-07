@@ -45,6 +45,6 @@ class Solution:
         return [lb, ub - 1]
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the sorted array: ").split()))
-    target = int(input("Enter the target: "))
-    print(Solution().searchRange(nums, target))
+    nums_input = list(map(int, input("Enter the sorted array: ").split()))
+    target_input = int(input("Enter the target: "))
+    print(Solution().searchRange(nums_input, target_input))

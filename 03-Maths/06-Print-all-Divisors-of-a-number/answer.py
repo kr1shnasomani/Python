@@ -16,5 +16,5 @@ def printDivisors(n: int) -> List[int]:
     return result
 
 if __name__ == "__main__":
-    n = int(input("Enter a number: "))
-    print(printDivisors(n))
+    n_input = int(input("Enter a number: "))
+    print(printDivisors(n_input))

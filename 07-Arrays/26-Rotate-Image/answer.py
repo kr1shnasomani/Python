@@ -21,6 +21,6 @@ class Solution:
         return matrix
 
 if __name__ == "__main__":
-    n = int(input("Enter number of rows: "))
-    matrix = [list(map(int, input().split())) for _ in range(n)]
-    print(Solution().rotate(matrix))
+    n_input = int(input("Enter number of rows: "))
+    matrix_input = [list(map(int, input().split())) for _ in range(n_input)]
+    print(Solution().rotate(matrix_input))

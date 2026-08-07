@@ -6,5 +6,5 @@ def printNos(x: int) -> list[int]:
     return result
 
 if __name__ == "__main__":
-    x = int(input())
-    print(printNos(x))
+    x_input = int(input())
+    print(printNos(x_input))

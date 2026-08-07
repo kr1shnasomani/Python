@@ -13,5 +13,5 @@ class Solution:
         return rev == original
 
 if __name__ == "__main__":
-    x = int(input("Enter a number: "))
-    print(Solution().isPalindrome(x))
+    x_input = int(input("Enter a number: "))
+    print(Solution().isPalindrome(x_input))

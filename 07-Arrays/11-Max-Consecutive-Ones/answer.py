@@ -15,5 +15,5 @@ class Solution:
         return max_count
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the array: ").split()))
-    print(Solution().findMaxConsecutiveOnes(nums))
+    nums_input = list(map(int, input("Enter the array: ").split()))
+    print(Solution().findMaxConsecutiveOnes(nums_input))

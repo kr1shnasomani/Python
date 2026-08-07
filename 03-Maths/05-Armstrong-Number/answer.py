@@ -12,8 +12,8 @@ def isArmstrong(num):
     return total == original
 
 if __name__ == '__main__':
-    num = int(input("Enter a number: "))
-    if isArmstrong(num):
+    num_input = int(input("Enter a number: "))
+    if isArmstrong(num_input):
         print("YES")
     else:
         print("NO")

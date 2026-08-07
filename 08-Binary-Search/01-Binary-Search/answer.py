@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         n = len(nums)
@@ -14,7 +13,7 @@ class Solution:
             if nums[mid] == target:
                 return mid
 
-            elif nums[mid] > target:
+            if nums[mid] > target:
                 high = mid - 1
 
             else:
@@ -23,6 +22,6 @@ class Solution:
         return -1
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the sorted array: ").split()))
-    target = int(input("Enter the target: "))
-    print(Solution().search(nums, target))
+    nums_input = list(map(int, input("Enter the sorted array: ").split()))
+    target_input = int(input("Enter the target: "))
+    print(Solution().search(nums_input, target_input))

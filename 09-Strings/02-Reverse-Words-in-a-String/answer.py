@@ -8,5 +8,5 @@ class Solution:
         return answer
 
 if __name__ == "__main__":
-    s = str(input("Enter the string: "))
-    print(Solution().reverseWords(s))
+    s_input = str(input("Enter the string: "))
+    print(Solution().reverseWords(s_input))

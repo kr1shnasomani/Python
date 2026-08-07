@@ -18,5 +18,5 @@ class Solution:
         return check(0, len(s) - 1)
 
 if __name__ == "__main__":
-    s = input("Enter a string: ")
-    print(Solution().isPalindrome(s))
+    s_input = input("Enter a string: ")
+    print(Solution().isPalindrome(s_input))

@@ -8,5 +8,5 @@ def countDigits(n: int) -> int:
     return count
 
 if __name__ == '__main__':
-    n = int(input("Enter a number: "))
-    print(countDigits(n))
+    n_input = int(input("Enter a number: "))
+    print(countDigits(n_input))

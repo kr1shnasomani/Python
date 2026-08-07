@@ -22,5 +22,5 @@ class Solution:
         return total
 
 if __name__ == "__main__":
-    s = str(input("Enter the roman numeral: "))
-    print(Solution().romanToInt(s))
+    s_input = str(input("Enter the roman numeral: "))
+    print(Solution().romanToInt(s_input))

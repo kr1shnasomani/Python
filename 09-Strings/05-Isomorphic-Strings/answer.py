@@ -21,6 +21,6 @@ class Solution:
         return True
 
 if __name__ == "__main__":
-    s = str(input("Enter first string: "))
-    t = str(input("Enter second string: "))
-    print(Solution().isIsomorphic(s, t))
+    s_input = str(input("Enter first string: "))
+    t_input = str(input("Enter second string: "))
+    print(Solution().isIsomorphic(s_input, t_input))

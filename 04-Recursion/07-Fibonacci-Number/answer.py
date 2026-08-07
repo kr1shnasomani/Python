@@ -7,5 +7,5 @@ class Solution:
         return result
 
 if __name__ == "__main__":
-    n = int(input("Enter a number: "))
-    print(Solution().fib(n))
+    n_input = int(input("Enter a number: "))
+    print(Solution().fib(n_input))

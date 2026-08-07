@@ -34,6 +34,6 @@ class Solution:
         return ans
 
 if __name__ == "__main__":
-    rows, cols = map(int, input().split())
-    matrix = [list(map(int, input().split())) for _ in range(rows)]
-    print(Solution().spiralOrder(matrix))
+    rows_input, cols_input = map(int, input().split())
+    matrix_input = [list(map(int, input().split())) for _ in range(rows_input)]
+    print(Solution().spiralOrder(matrix_input))

@@ -11,6 +11,6 @@ def selectionSort(arr, n):
     return arr
 
 if __name__ == "__main__":
-    arr = list(map(int, input("Enter the array: ").split()))
-    n = len(arr)
-    print(selectionSort(arr, n))
+    arr_input = list(map(int, input("Enter the array: ").split()))
+    n_input = len(arr_input)
+    print(selectionSort(arr_input, n_input))

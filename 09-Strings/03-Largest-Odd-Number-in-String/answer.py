@@ -9,5 +9,5 @@ class Solution:
         return ""
 
 if __name__ == "__main__":
-    num = str(input("Enter a number: "))
-    print(Solution().largestOddNumber(num))
+    num_input = str(input("Enter a number: "))
+    print(Solution().largestOddNumber(num_input))

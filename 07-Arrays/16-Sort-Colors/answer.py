@@ -24,5 +24,5 @@ class Solution:
         return nums
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the array: ").split()))
-    print(Solution().sortColors(nums))
+    nums_input = list(map(int, input("Enter the array: ").split()))
+    print(Solution().sortColors(nums_input))

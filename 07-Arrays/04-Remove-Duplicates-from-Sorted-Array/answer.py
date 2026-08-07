@@ -13,5 +13,5 @@ class Solution:
         return i + 1
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the sorted array: ").split()))
-    print(Solution().removeDuplicates(nums))
+    nums_input = list(map(int, input("Enter the sorted array: ").split()))
+    print(Solution().removeDuplicates(nums_input))

@@ -12,5 +12,5 @@ def isPrime(n):
     return True
 
 if __name__ == "__main__":
-    n = int(input())
-    print(isPrime(n))
+    n_input = int(input())
+    print(isPrime(n_input))

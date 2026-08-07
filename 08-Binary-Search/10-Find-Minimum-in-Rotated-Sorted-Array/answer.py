@@ -21,5 +21,5 @@ class Solution:
         return ans
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the rotated sorted array: ").split()))
-    print(Solution().findMin(nums))
+    nums_input = list(map(int, input("Enter the rotated sorted array: ").split()))
+    print(Solution().findMin(nums_input))

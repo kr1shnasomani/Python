@@ -46,8 +46,6 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 
 | # | Topic |
 |---|-------|
-| 1a | [Top K Frequent Elements](05-Hashing/01a-Top-K-Frequent-Elements) |
-| 1b | [Unique Number of Occurrences](05-Hashing/01b-Unique-Number-of-Occurrences) |
 | 2 | [Counting Frequencies of Array Elements](05-Hashing/02-Counting-Frequencies-of-Array-Elements) |
 | 3 | [Frequency of the Most Frequent Element](05-Hashing/03-Frequency-of-the-Most-Frequent-Element) |
 
@@ -94,7 +92,6 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 | 25 | [Set Matrix Zeroes](07-Arrays/25-Set-Matrix-Zeroes) |
 | 26 | [Rotate Image](07-Arrays/26-Rotate-Image) |
 | 27 | [Spiral Matrix](07-Arrays/27-Spiral-Matrix) |
-| 28 | [Subarray Sum Equals K](07-Arrays/28-Subarray-Sum-Equals-k) |
 
 ---
 
@@ -133,5 +130,6 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 | 9 | [Maximum Nesting Depth of the Parentheses](09-Strings/09-Maximum-Nesting-Depth-of-the-Parentheses) |
 | 10 | [Roman to Integer](09-Strings/10-Roman-to-Integer) |
 | 11 | [String to Integer (atoi)](09-Strings/11-String-to-Integer-(atoi)) |
+| 12 | [Count With K Different Characters](09-Strings/12-Count-With-K-Different-Characters) |
 | 13 | [Longest Palindromic Substring](09-Strings/13-Longest-Palindromic-Substring) |
 | 14 | [Sum of Beauty of All Substrings](09-Strings/14-Sum-of-Beauty-of-All-Substrings) |

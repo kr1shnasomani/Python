@@ -22,7 +22,6 @@ def merge(arr, left, mid, right):
     for k in range(left, right + 1):
         arr[k] = temp[k - left]
 
-
 def merge_sort(arr, left, right):
     if left >= right:
         return
@@ -34,12 +33,11 @@ def merge_sort(arr, left, right):
 
     merge(arr, left, mid, right)
 
-
 def mergeSort(arr, n):
     merge_sort(arr, 0, n - 1)
     return arr
 
 if __name__ == "__main__":
-    arr = list(map(int, input("Enter the array: ").split()))
-    n = len(arr)
-    print(mergeSort(arr, n))
+    arr_input = list(map(int, input("Enter the array: ").split()))
+    n_input = len(arr_input)
+    print(mergeSort(arr_input, n_input))

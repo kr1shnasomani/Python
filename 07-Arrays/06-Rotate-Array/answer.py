@@ -13,6 +13,6 @@ class Solution:
         return nums
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the array: ").split()))
-    k = int(input("Enter k: "))
-    print(Solution().rotate(nums, k))
+    nums_input = list(map(int, input("Enter the array: ").split()))
+    k_input = int(input("Enter k: "))
+    print(Solution().rotate(nums_input, k_input))

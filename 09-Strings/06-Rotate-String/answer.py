@@ -6,6 +6,6 @@ class Solution:
         return goal in (s+s)
 
 if __name__ == "__main__":
-    s = str(input("Enter the first string: "))
-    goal = str(input("Enter the second string: "))
-    print(Solution().rotateString(s, goal))
+    s_input = str(input("Enter the first string: "))
+    goal_input = str(input("Enter the second string: "))
+    print(Solution().rotateString(s_input, goal_input))

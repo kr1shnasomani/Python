@@ -7,6 +7,6 @@ def bubbleSort(arr,n):
     return arr
 
 if __name__ == "__main__":
-    arr = list(map(int, input("Enter the array: ").split()))
-    n = len(arr)
-    print(bubbleSort(arr, n))
+    arr_input = list(map(int, input("Enter the array: ").split()))
+    n_input = len(arr_input)
+    print(bubbleSort(arr_input, n_input))

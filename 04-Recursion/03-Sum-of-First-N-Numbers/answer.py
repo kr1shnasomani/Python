@@ -3,5 +3,5 @@ def sumFirstN(n: int):
     return result
 
 if __name__ == "__main__":
-    n = int(input("Enter a number:"))
-    print(sumFirstN(n))
+    n_input = int(input("Enter a number:"))
+    print(sumFirstN(n_input))

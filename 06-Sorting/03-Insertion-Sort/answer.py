@@ -6,12 +6,12 @@ def insertionSort(arr, n):
         while j >= 0 and arr[j] > current:
             arr[j + 1] = arr[j]
             j = j - 1
-            
+
         arr[j + 1] = current
 
     return arr
 
 if __name__ == "__main__":
-    arr = list(map(int, input("Enter the array: ").split()))
-    n = len(arr)
-    print(insertionSort(arr, n))
+    arr_input = list(map(int, input("Enter the array: ").split()))
+    n_input = len(arr_input)
+    print(insertionSort(arr_input, n_input))

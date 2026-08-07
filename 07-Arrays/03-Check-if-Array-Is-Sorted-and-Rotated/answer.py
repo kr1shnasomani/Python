@@ -12,5 +12,5 @@ class Solution:
         return count <= 1
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the array: ").split()))
-    print(Solution().check(nums))
+    nums_input = list(map(int, input("Enter the array: ").split()))
+    print(Solution().check(nums_input))

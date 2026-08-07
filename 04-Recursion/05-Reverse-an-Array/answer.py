@@ -12,6 +12,6 @@ def reverseArray(n: int, nums: List[int]) -> List[int]:
     return nums
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter the array: ").split()))
-    n = len(nums)
-    print(reverseArray(n, nums))
+    nums_input = list(map(int, input("Enter the array: ").split()))
+    n_input = len(nums_input)
+    print(reverseArray(n_input, nums_input))
