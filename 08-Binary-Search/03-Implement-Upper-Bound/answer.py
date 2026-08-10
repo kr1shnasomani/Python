@@ -1,4 +1,4 @@
-def upperBound(arr: [int], x: int, n: int) -> int:
+def upperBound(arr: list[int], x: int, n: int) -> int:
     low = 0
     high = n - 1
     ans = n

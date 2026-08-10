@@ -1,6 +1,85 @@
-# Approach
+# 14. Highest Occurring Element in an Array
 
-## Main Logic
+Source: `05-Hashing/03-Frequency-of-the-Most-Frequent-Element`
+
+## Question
+
+https://leetcode.com/problems/frequency-of-the-most-frequent-element/
+
+## Problem Statement
+
+The **frequency** of an element is the number of times it occurs in an array.
+
+You are given an integer array `nums` and an integer `k`. In one operation, you can choose an index of `nums` and increment the element at that index by `1`.
+
+Return the **maximum possible frequency** of an element after performing **at most** `k` operations.
+
+### Example 1
+
+```text
+Input: nums = [1,2,4], k = 5
+Output: 3
+Explanation: Increment the first element three times and the second element two times to make nums = [4,4,4].
+4 has a frequency of 3.
+```
+
+### Example 2
+
+```text
+Input: nums = [1,4,8,13], k = 5
+Output: 2
+Explanation: There are multiple optimal solutions:
+- Increment the first element three times to make nums = [4,4,8,13]. 4 has a frequency of 2.
+- Increment the second element four times to make nums = [1,8,8,13]. 8 has a frequency of 2.
+- Increment the third element five times to make nums = [1,4,13,13]. 13 has a frequency of 2.
+```
+
+### Example 3
+
+```text
+Input: nums = [3,9,6], k = 2
+Output: 1
+```
+
+### Constraints
+
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^5`
+- `1 <= k <= 10^5`
+
+## Solution
+
+```python
+from typing import List
+
+class Solution:
+    def maxFrequency(self, nums: List[int], k: int) -> int:
+        nums.sort()
+
+        left = 0
+        total = 0
+        result = 0
+
+        for right in range(len(nums)):
+            total = total + nums[right]
+
+            while nums[right] * (right - left + 1) - total > k:
+                total = total - nums[left]
+                left = left + 1
+
+            result = max(result, right - left + 1)
+
+        return result
+
+if __name__ == "__main__":
+    nums_input = list(map(int, input("Enter the array: ").split()))
+    k_input = int(input("Enter k: "))
+    print(Solution().maxFrequency(nums_input, k_input))
+```
+
+## Approach
+
+### Main Logic
 
 ```python
 while nums[right] * (right - left + 1) - total > k:
@@ -19,7 +98,7 @@ result = max(result, right - left + 1)
 
 ---
 
-## Key Concept
+### Key Concept
 
 **Sliding Window with a Running Sum**
 
@@ -30,9 +109,9 @@ result = max(result, right - left + 1)
 
 ---
 
-## Dry Run
+### Dry Run
 
-### Example 1
+#### Example 1
 
 **Input**
 
@@ -56,7 +135,7 @@ Sorted: `[1, 2, 4]` (already sorted)
 
 ---
 
-### Example 2
+#### Example 2
 
 **Input**
 
@@ -81,7 +160,7 @@ Sorted: `[1, 4, 8, 13]` (already sorted)
 
 ---
 
-### Example 3
+#### Example 3
 
 **Input**
 
@@ -105,7 +184,7 @@ Sorted: `[3, 6, 9]`
 
 ---
 
-## Complexity Analysis
+### Complexity Analysis
 
 - **Time Complexity:** `O(n log n)` - dominated by sorting the array, the sliding window itself is `O(n)` since `left` and `right` each move forward at most `n` times.
 - **Space Complexity:** `O(1)` - only a running sum, two pointers, and a result variable are used, no extra space grows with input size (ignoring the in-place sort).

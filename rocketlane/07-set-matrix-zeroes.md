@@ -1,6 +1,78 @@
-# Approach
+# 7. Set Matrix Zeroes
 
-## Main Logic
+Source: `07-Arrays/25-Set-Matrix-Zeroes`
+
+## Question
+
+https://leetcode.com/problems/set-matrix-zeroes
+
+Given an `m x n` integer matrix `matrix`, if an element is `0`, set its entire row and column to `0`'s.
+
+You must do it **in place**.
+
+### Example 1
+
+![alt text](images/07-set-matrix-zeroes-image1.png)
+
+**Input:** `matrix = [[1,1,1],[1,0,1],[1,1,1]]`
+
+**Output:** `[[1,0,1],[0,0,0],[1,0,1]]`
+
+### Example 2
+
+![alt text](images/07-set-matrix-zeroes-image2.png)
+
+**Input:** `matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]`
+
+**Output:** `[[0,0,0,0],[0,4,5,0],[0,3,1,0]]`
+
+### Constraints
+
+- `m == matrix.length`
+- `n == matrix[0].length`
+- `1 <= m, n <= 200`
+- `-2^31 <= matrix[i][j] <= 2^31 - 1`
+
+## Solution
+
+```python
+from typing import List
+
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
+        rows = len(matrix)
+        cols = len(matrix[0])
+
+        col0 = 1
+
+        for i in range(rows):
+            if matrix[i][0] == 0:
+                col0 = 0
+
+            for j in range(1, cols):
+                if matrix[i][j] == 0:
+                    matrix[i][0] = 0
+                    matrix[0][j] = 0
+
+        for i in range(rows - 1, -1, -1):
+            for j in range(cols - 1, 0, -1):
+                if matrix[i][0] == 0 or matrix[0][j] == 0:
+                    matrix[i][j] = 0
+
+            if col0 == 0:
+                matrix[i][0] = 0
+
+        return matrix
+
+if __name__ == "__main__":
+    n = int(input("Enter number of rows: "))
+    matrix_input = [list(map(int, input().split())) for _ in range(n)]
+    print(Solution().setZeroes(matrix_input))
+```
+
+## Approach
+
+### Main Logic
 
 ```python
 if matrix[i][j] == 0:
@@ -22,7 +94,7 @@ if matrix[i][0] == 0 or matrix[0][j] == 0:
 
 ---
 
-## Key Concept
+### Key Concept
 
 **In-place Marking with the Matrix Itself**
 
@@ -33,9 +105,9 @@ if matrix[i][0] == 0 or matrix[0][j] == 0:
 
 ---
 
-## Dry Run
+### Dry Run
 
-### Example 1
+#### Example 1
 
 **Input**
 
@@ -86,7 +158,7 @@ Matrix after pass 1:
 
 ---
 
-### Example 2
+#### Example 2
 
 **Input**
 
@@ -134,7 +206,7 @@ Matrix after pass 1 is unchanged from the input, since every mark this time was 
 
 ---
 
-## Complexity Analysis
+### Complexity Analysis
 
 - **Time Complexity:** `O(m * n)` - the matrix is scanned twice, once to mark and once to zero, both proportional to the total number of cells.
 - **Space Complexity:** `O(1)` - only the matrix's own first row and column, plus one `col0` variable, are used as markers, no extra data structure grows with input size.

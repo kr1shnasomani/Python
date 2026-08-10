@@ -112,6 +112,13 @@ Solutions written in Python for [Striver's A to Z DSA Sheet](https://takeuforwar
 | 11 | [Find Out How Many Times the Array Is Rotated](08-Binary-Search/11-Find-out-how-many-times-the-array-is-rotated) |
 | 12 | [Single Element in a Sorted Array](08-Binary-Search/12-Single-Element-in-a-Sorted-Array) |
 | 13 | [Find Peak Element](08-Binary-Search/13-Find-Peak-Element) |
+| 14 | [Sqrt(x)](08-Binary-Search/14-Sqrt(x)) |
+| 15 | [Find Nth Root Of M](08-Binary-Search/15-Find-Nth-Root-Of-M) |
+| 16 | [Koko Eating Bananas](08-Binary-Search/16-Koko-Eating-Bananas) |
+| 18 | [Find the Smallest Divisor Given a Threshold](08-Binary-Search/18-Find-the-Smallest-Divisor-Given-a-Threshold) |
+| 19 | [Capacity To Ship Packages Within D Days](08-Binary-Search/19-Capacity-To-Ship-Packages-Within-D-Days) |
+| 28 | [Row with max 1's](08-Binary-Search/28-Row-with-max-1s) |
+| 29 | [Search a 2D Matrix](08-Binary-Search/29-Search-a-2D-Matrix) |
 
 ---
 

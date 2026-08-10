@@ -1,6 +1,119 @@
-# Approach
+# 27. Floor and Ceil in Sorted Array
 
-## Main Logic
+Source: `08-Binary-Search/05-Floor-and-Ceil-in-Sorted-Array`
+
+## Question
+
+https://www.naukri.com/code360/problem-details/ceiling-in-a-sorted-array_1825401
+
+You're given a sorted array `a` of `n` integers and an integer `x`.
+
+Find the floor and ceiling of `x` in `a[0..n-1]`.
+
+> **Note:**
+> Floor of `x` is the largest element in the array which is smaller than or equal to `x`. Ceiling of `x` is the smallest element in the array greater than or equal to `x`.
+
+### Example
+
+**Input:**
+`n=6, x=5, a=[3, 4, 7, 8, 8, 10]`
+
+**Output:**
+`4`
+
+**Explanation:**
+The floor and ceiling of `x` = 5 are 4 and 7, respectively.
+
+### Sample Input 1
+
+```text
+6 8
+3 4 4 7 8 10
+```
+
+### Sample Output 1
+
+```text
+8 8
+```
+
+### Explanation of Sample Input 1
+
+Since x = 8 is present in the array, it will be both floor and ceiling.
+
+### Sample Input 2
+
+```text
+6 2
+3 4 4 7 8 10
+```
+
+### Sample Output 2
+
+```text
+-1 3
+```
+
+### Explanation of Sample Input 2
+
+Since no number is less than or equal to x = 2 in the array, its floor does not exist. The ceiling will be 3.
+
+### Constraints
+
+- `1 <= n <= 2 * 10^5`
+- `1 <= a[i] <= 10^9`
+- Time limit: 1 sec
+
+## Solution
+
+```python
+def find_floor(a, n, x):
+    low = 0
+    high = n - 1
+    ans = -1
+
+    while low <= high:
+        mid = (low + high) // 2
+
+        if a[mid] <= x:
+            ans = a[mid]
+            low = mid + 1
+        else:
+            high = mid - 1
+
+    return ans
+
+def find_ceil(a, n, x):
+    low = 0
+    high = n - 1
+    ans = -1
+
+    while low <= high:
+        mid = (low + high) // 2
+
+        if a[mid] >= x:
+            ans = a[mid]
+            high = mid - 1
+        else:
+            low = mid + 1
+
+    return ans
+
+def getFloorAndCeil(a, n, x):
+    floor = find_floor(a, n, x)
+    ceil = find_ceil(a, n, x)
+    return [floor, ceil]
+
+if __name__ == "__main__":
+    a_input = list(map(int, input("Enter the sorted array: ").split()))
+    x_input = int(input("Enter x: "))
+    n_input = len(a_input)
+    print(getFloorAndCeil(a_input, n_input, x_input))
+```
+
+## Approach
+
+### Main Logic
 
 **Ceil search**
 
@@ -31,9 +144,9 @@ else:
 
 ---
 
-## Dry Run
+### Dry Run
 
-### Example 1
+#### Example 1
 
 **Input**
 
@@ -69,7 +182,7 @@ a = [3, 4, 7, 8, 8, 10], x = 5
 
 ---
 
-### Sample Input 1
+#### Sample Input 1
 
 **Input**
 
@@ -105,7 +218,7 @@ a = [3, 4, 4, 7, 8, 10], x = 8
 
 ---
 
-### Sample Input 2
+#### Sample Input 2
 
 **Input**
 
@@ -139,7 +252,7 @@ a = [3, 4, 4, 7, 8, 10], x = 2
 
 ---
 
-## Complexity Analysis
+### Complexity Analysis
 
 - **Time Complexity:** `O(log n)` - floor and ceil are two independent binary searches, each `O(log n)`, run one after another.
 - **Space Complexity:** `O(1)` - only a few pointers and one answer variable are used in each search, no extra space grows with input size.

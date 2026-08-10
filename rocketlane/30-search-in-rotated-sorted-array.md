@@ -1,6 +1,87 @@
-# Approach
+# 30. Search in Rotated Sorted Array-I
 
-## Main Logic
+Source: `08-Binary-Search/08-Search-in-Rotated-Sorted-Array`
+
+## Question
+
+https://leetcode.com/problems/search-in-rotated-sorted-array
+
+There is an integer array `nums` sorted in ascending order (with **distinct** values).
+
+Prior to being passed to your function, `nums` is **possibly left rotated** at an unknown index `k` (`1 <= k < nums.length`) such that the resulting array is:
+
+`[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]` (00-indexed).
+
+For example, `[0,1,2,4,5,6,7]` might be left rotated by `3` indices and become `[4,5,6,7,0,1,2]`.
+
+Given the array `nums` after the possible rotation and an integer `target`, return the index of `target` if it is in `nums`, or `-1` if it is not in `nums`.
+
+You must write an algorithm with `O(log n)` runtime complexity.
+
+### Example 1
+
+**Input:** `nums = [4,5,6,7,0,1,2]`, `target = 0`
+**Output:** `4`
+
+### Example 2
+
+**Input:** `nums = [4,5,6,7,0,1,2]`, `target = 3`
+**Output:** `-1`
+
+### Example 3
+
+**Input:** `nums = [1]`, `target = 0`
+**Output:** `-1`
+
+### Constraints
+
+- `1 <= nums.length <= 5000`
+- `-10^4 <= nums[i] <= 10^4`
+- All values of `nums` are **unique**.
+- `nums` is an ascending array that is possibly rotated.
+- `-10^4 <= target <= 10^4`
+
+## Solution
+
+```python
+from typing import List
+
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        n = len(nums)
+
+        low = 0
+        high = n - 1
+
+        while low <= high:
+            mid = (low + high) // 2
+
+            if nums[mid] == target:
+                return mid
+
+            if nums[low] <= nums[mid]:
+                if nums[low] <= target < nums[mid]:
+                    high = mid - 1
+                else:
+                    low = mid + 1
+
+            else:
+                if nums[mid] < target <= nums[high]:
+                    low = mid + 1
+                else:
+                    high = mid - 1
+
+        return -1
+
+if __name__ == "__main__":
+    nums_input = list(map(int, input("Enter the rotated sorted array: ").split()))
+    target_input = int(input("Enter the target: "))
+    print(Solution().search(nums_input, target_input))
+```
+
+## Approach
+
+### Main Logic
 
 ```python
 if nums[low] <= nums[mid]:
@@ -25,7 +106,7 @@ else:
 
 ---
 
-## Key Concept
+### Key Concept
 
 **Rotated Sorted Array Property**
 
@@ -36,9 +117,9 @@ else:
 
 ---
 
-## Dry Run
+### Dry Run
 
-### Example 1
+#### Example 1
 
 **Input**
 
@@ -60,7 +141,7 @@ nums = [4, 5, 6, 7, 0, 1, 2], target = 0
 
 ---
 
-### Example 2
+#### Example 2
 
 **Input**
 
@@ -84,7 +165,7 @@ nums = [4, 5, 6, 7, 0, 1, 2], target = 3
 
 ---
 
-### Example 3
+#### Example 3
 
 **Input**
 
@@ -106,7 +187,7 @@ nums = [1], target = 0
 
 ---
 
-## Complexity Analysis
+### Complexity Analysis
 
 - **Time Complexity:** `O(log n)` - each step still throws away one full half of the search range, exactly like regular binary search.
 - **Space Complexity:** `O(1)` - only a few pointers are used, no extra space grows with input size.

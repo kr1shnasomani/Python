@@ -1,6 +1,97 @@
-# Approach
+# 28. First and Last Occurrence
 
-## Main Logic
+Source: `08-Binary-Search/06-Find-First-and-Last-Position-of-Element-in-Sorted-Array`
+
+## Question
+
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
+
+Given an array of integers `nums` sorted in non-decreasing order, find the starting and ending position of a given `target` value.
+
+If `target` is not found in the array, return `[-1, -1]`.
+
+You must write an algorithm with `O(log n)` runtime complexity.
+
+### Example 1
+
+**Input:** `nums = [5,7,7,8,8,10]`, `target = 8`
+**Output:** `[3,4]`
+
+### Example 2
+
+**Input:** `nums = [5,7,7,8,8,10]`, `target = 6`
+**Output:** `[-1,-1]`
+
+### Example 3
+
+**Input:** `nums = []`, `target = 0`
+**Output:** `[-1,-1]`
+
+### Constraints
+
+- `0 <= nums.length <= 10^5`
+- `-10^9 <= nums[i] <= 10^9`
+- `nums` is a non-decreasing array.
+- `-10^9 <= target <= 10^9`
+
+## Solution
+
+```python
+from typing import List
+
+class Solution:
+    def lowerBound(self, nums: List[int], n: int, target: int) -> int:
+        low = 0
+        high = n - 1
+        ans = n
+
+        while low <= high:
+            mid = (low + high) // 2
+
+            if nums[mid] >= target:
+                ans = mid
+                high = mid - 1
+            else:
+                low = mid + 1
+
+        return ans
+
+    def upperBound(self, nums: List[int], n: int, target: int) -> int:
+        low = 0
+        high = n - 1
+        ans = n
+
+        while low <= high:
+            mid = (low + high) // 2
+
+            if nums[mid] > target:
+                ans = mid
+                high = mid - 1
+            else:
+                low = mid + 1
+
+        return ans
+
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        n = len(nums)
+
+        lb = self.lowerBound(nums, n, target)
+        ub = self.upperBound(nums, n, target)
+
+        if lb == n or nums[lb] != target:
+            return [-1, -1]
+
+        return [lb, ub - 1]
+
+if __name__ == "__main__":
+    nums_input = list(map(int, input("Enter the sorted array: ").split()))
+    target_input = int(input("Enter the target: "))
+    print(Solution().searchRange(nums_input, target_input))
+```
+
+## Approach
+
+### Main Logic
 
 ```python
 lb = self.lowerBound(nums, n, target)
@@ -21,9 +112,9 @@ return [lb, ub - 1]
 
 ---
 
-## Dry Run
+### Dry Run
 
-### Example 1
+#### Example 1
 
 **Input**
 
@@ -61,7 +152,7 @@ nums = [5, 7, 7, 8, 8, 10], target = 8
 
 ---
 
-### Example 2
+#### Example 2
 
 **Input**
 
@@ -89,7 +180,7 @@ nums = [5, 7, 7, 8, 8, 10], target = 6
 
 ---
 
-### Example 3
+#### Example 3
 
 **Input**
 
@@ -109,7 +200,7 @@ Here `n = 0`, so `low = 0` and `high = n - 1 = -1` right from the start. Since `
 
 ---
 
-## Complexity Analysis
+### Complexity Analysis
 
 - **Time Complexity:** `O(log n)` - lower bound and upper bound are two independent binary searches, each `O(log n)`, run one after another.
 - **Space Complexity:** `O(1)` - only a few pointers and one answer variable are used in each search, no extra space grows with input size.

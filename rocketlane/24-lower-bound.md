@@ -1,6 +1,109 @@
-# Approach
+# 24. Lower Bound
 
-## Main Logic
+Source: `08-Binary-Search/02-Implement-Lower-Bound`
+
+## Question
+
+https://www.naukri.com/code360/problems/lower-bound_8165382
+
+You are given an array `arr` sorted in non-decreasing order and a number `x`.
+
+You must return the index of the lower bound of `x`.
+
+> **Note:**
+> 1. For a sorted array `arr`, the lower bound of a number `x` is defined as the smallest index `idx` such that the value `arr[idx]` is not less than `x`. If all numbers are smaller than `x`, then `n` should be the lower bound of `x`, where `n` is the size of the array.
+> 2. Try to do this in `O(log(n))`.
+
+### Example
+
+**Input:** `arr = [1, 2, 2, 3]` and `x = 0`
+
+**Output:** `0`
+
+**Explanation:**
+Index `0` is the smallest index such that `arr[0]` is not less than `x`.
+
+### Sample Input 1
+
+```text
+6
+1 2 2 3 3 5
+0
+```
+
+### Sample Output 1
+
+```text
+0
+```
+
+### Explanation of Sample Input 1
+
+Index `0` is the smallest index such that `arr[0]` is not less than `x`.
+
+### Sample Input 2
+
+```text
+6
+1 2 2 3 3 5
+2
+```
+
+### Sample Output 2
+
+```text
+1
+```
+
+### Sample Input 3
+
+```text
+6
+1 2 2 3 3 5
+7
+```
+
+### Sample Output 3
+
+```text
+6
+```
+
+### Constraints
+
+- `1 <= n <= 10^5`
+- `0 <= arr[i] <= 10^5`
+- `1 <= x <= 10^5`
+
+## Solution
+
+```python
+def lowerBound(arr: list[int], n: int, x: int) -> int:
+    low = 0
+    high = n - 1
+    ans = n
+
+    while low <= high:
+        mid = (high + low) // 2
+
+        if arr[mid] >= x:
+            ans = mid
+            high = mid - 1
+        else:
+            low = mid + 1
+
+    return ans
+
+if __name__ == "__main__":
+    arr_input = list(map(int, input("Enter the sorted array: ").split()))
+    x_input = int(input("Enter x: "))
+    n_input = len(arr_input)
+    print(lowerBound(arr_input, n_input, x_input))
+```
+
+## Approach
+
+### Main Logic
 
 ```python
 if arr[mid] >= x:
@@ -19,7 +122,7 @@ else:
 
 ---
 
-## Key Concept
+### Key Concept
 
 **Lower Bound Pattern**
 
@@ -30,9 +133,9 @@ else:
 
 ---
 
-## Dry Run
+### Dry Run
 
-### Example 1
+#### Example 1
 
 **Input**
 
@@ -55,7 +158,7 @@ arr = [1, 2, 2, 3, 3, 5], x = 0
 
 ---
 
-### Example 2
+#### Example 2
 
 **Input**
 
@@ -79,7 +182,7 @@ arr = [1, 2, 2, 3, 3, 5], x = 2
 
 ---
 
-### Example 3
+#### Example 3
 
 **Input**
 
@@ -103,7 +206,7 @@ arr = [1, 2, 2, 3, 3, 5], x = 7
 
 ---
 
-## Complexity Analysis
+### Complexity Analysis
 
 - **Time Complexity:** `O(log n)` - the search range is still cut in half every step, just like regular binary search.
 - **Space Complexity:** `O(1)` - only a few pointers and one answer variable are used, no extra space grows with input size.
